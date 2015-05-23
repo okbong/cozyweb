@@ -1,0 +1,693 @@
+.dm-width {
+	display: inline-block; max-width: 100%;
+}
+[data-device=imac].dm-device {
+	padding-bottom: 81.23%;
+}
+[data-device=imac].dm-device > .device {
+	background-image: url("../img/imac.png");
+}
+[data-device=imac].dm-device > .device > .screen {
+	left: 6.61%; top: 8.2%; right: 6.61%; bottom: 31.69%;
+}
+[data-device=ipad].dm-device {
+	padding-bottom: 128.4%;
+}
+[data-device=ipad][data-orientation=portrait].dm-device {
+	padding-bottom: 128.4%;
+}
+[data-device=ipad][data-orientation=landscape].dm-device {
+	padding-bottom: 79.9%;
+}
+[data-device=ipad].dm-device > .device {
+	background-image: url("../img/ipad_port_black.png");
+}
+[data-device=ipad][data-color=black].dm-device > .device {
+	background-image: url("../img/ipad_port_black.png");
+}
+[data-device=ipad][data-color=black][data-orientation=portrait].dm-device > .device {
+	background-image: url("../img/ipad_port_black.png");
+}
+[data-device=ipad][data-color=white].dm-device > .device {
+	background-image: url("../img/ipad_port_white.png");
+}
+[data-device=ipad][data-color=white][data-orientation=portrait].dm-device > .device {
+	background-image: url("../img/ipad_port_white.png");
+}
+[data-device=ipad][data-orientation=landscape].dm-device > .device {
+	background-image: url("../img/ipad_land_black.png");
+}
+[data-device=ipad][data-color=black][data-orientation=landscape].dm-device > .device {
+	background-image: url("../img/ipad_land_black.png");
+}
+[data-device=ipad][data-color=white][data-orientation=landscape].dm-device > .device {
+	background-image: url("../img/ipad_land_white.png");
+}
+[data-device=ipad].dm-device > .device > .screen {
+	left: 13.45%; top: 12.02%; right: 13.45%; bottom: 12.15%;
+}
+[data-device=ipad][data-orientation=portrait].dm-device > .device > .screen {
+	left: 13.45%; top: 12.02%; right: 13.45%; bottom: 12.15%;
+}
+[data-device=ipad][data-orientation=landscape].dm-device > .device > .screen {
+	left: 11.54%; top: 13.87%; right: 11.54%; bottom: 13.87%;
+}
+[data-device=iphone5].dm-device {
+	padding-bottom: 200.47%;
+}
+[data-device=iphone5][data-orientation=portrait].dm-device {
+	padding-bottom: 200.47%;
+}
+[data-device=iphone5][data-orientation=landscape].dm-device {
+	padding-bottom: 49.97%;
+}
+[data-device=iphone5].dm-device > .device {
+	background-image: url("../img/iphone5_port_black.png");
+}
+[data-device=iphone5][data-color=black].dm-device > .device {
+	background-image: url("../img/iphone5_port_black.png");
+}
+[data-device=iphone5][data-color=black][data-orientation=portrait].dm-device > .device {
+	background-image: url("../img/iphone5_port_black.png");
+}
+[data-device=iphone5][data-orientation=landscape].dm-device > .device {
+	background-image: url("../img/iphone5_land_black.png");
+}
+[data-device=iphone5][data-color=black][data-orientation=landscape].dm-device > .device {
+	background-image: url("../img/iphone5_land_black.png");
+}
+[data-device=iphone5][data-color=white].dm-device > .device {
+	background-image: url("../img/iphone5_port_white.png");
+}
+[data-device=iphone5][data-color=white][data-orientation=portrait].dm-device > .device {
+	background-image: url("../img/iphone5_port_white.png");
+}
+[data-device=iphone5][data-color=white][data-orientation=landscape].dm-device > .device {
+	background-image: url("../img/iphone5_land_white.png");
+}
+[data-device=iphone5].dm-device > .device > .screen {
+	left: 11.77%; top: 16.28%; right: 11.77%; bottom: 16.28%;
+}
+[data-device=iphone5][data-orientation=portrait].dm-device > .device > .screen {
+	left: 11.77%; top: 16.28%; right: 11.77%; bottom: 16.28%;
+}
+[data-device=iphone5][data-orientation=landscape].dm-device > .device > .screen {
+	left: 16.01%; top: 11.72%; right: 16.01%; bottom: 11.72%;
+}
+[data-device=iphone5s].dm-device {
+	padding-bottom: 210.47%;
+}
+[data-device=iphone5s][data-orientation=portrait].dm-device {
+	padding-bottom: 210.47%;
+}
+[data-device=iphone5s][data-orientation=landscape].dm-device {
+	padding-bottom: 46.97%;
+}
+[data-device=iphone5s].dm-device > .device {
+	background-image: url("../img/iphone5s_port_black.png");
+}
+[data-device=iphone5s][data-color=black].dm-device > .device {
+	background-image: url("../img/iphone5s_port_black.png");
+}
+[data-device=iphone5s][data-color=black][data-orientation=portrait].dm-device > .device {
+	background-image: url("../img/iphone5s_port_black.png");
+}
+[data-device=iphone5s][data-orientation=landscape].dm-device > .device {
+	background-image: url("../img/iphone5s_land_black.png");
+}
+[data-device=iphone5s][data-color=black][data-orientation=landscape].dm-device > .device {
+	background-image: url("../img/iphone5s_land_black.png");
+}
+[data-device=iphone5s][data-color=white].dm-device > .device {
+	background-image: url("../img/iphone5s_port_white.png");
+}
+[data-device=iphone5s][data-color=white][data-orientation=portrait].dm-device > .device {
+	background-image: url("../img/iphone5s_port_white.png");
+}
+[data-device=iphone5s][data-color=white][data-orientation=landscape].dm-device > .device {
+	background-image: url("../img/iphone5s_land_white.png");
+}
+[data-device=iphone5s][data-color=gold].dm-device > .device {
+	background-image: url("../img/iphone5s_port_gold.png");
+}
+[data-device=iphone5s][data-color=gold][data-orientation=portrait].dm-device > .device {
+	background-image: url("../img/iphone5s_port_gold.png");
+}
+[data-device=iphone5s][data-color=gold][data-orientation=landscape].dm-device > .device {
+	background-image: url("../img/iphone5s_land_gold.png");
+}
+[data-device=iphone5s].dm-device > .device > .screen {
+	left: 8.6%; top: 14.7%; right: 7.5%; bottom: 14.2%;
+}
+[data-device=iphone5s][data-orientation=portrait].dm-device > .device > .screen {
+	left: 8.6%; top: 14.7%; right: 7.5%; bottom: 14.2%;
+}
+[data-device=iphone5s][data-orientation=landscape].dm-device > .device > .screen {
+	left: 14.8%; top: 7.4%; right: 14.2%; bottom: 8.5%;
+}
+[data-device=iphone6].dm-device {
+	padding-bottom: 200.47%;
+}
+[data-device=iphone6][data-orientation=portrait].dm-device {
+	padding-bottom: 200.47%;
+}
+[data-device=iphone6][data-orientation=landscape].dm-device {
+	padding-bottom: 49.97%;
+}
+[data-device=iphone6].dm-device > .device {
+	background-image: url("../img/iphone6_port_black.png");
+}
+[data-device=iphone6][data-color=black].dm-device > .device {
+	background-image: url("../img/iphone6_port_black.png");
+}
+[data-device=iphone6][data-color=black][data-orientation=portrait].dm-device > .device {
+	background-image: url("../img/iphone6_port_black.png");
+}
+[data-device=iphone6][data-orientation=landscape].dm-device > .device {
+	background-image: url("../img/iphone6_land_black.png");
+}
+[data-device=iphone6][data-color=black][data-orientation=landscape].dm-device > .device {
+	background-image: url("../img/iphone6_land_black.png");
+}
+[data-device=iphone6][data-color=silver].dm-device > .device {
+	background-image: url("../img/iphone6_port_silver.png");
+}
+[data-device=iphone6][data-color=silver][data-orientation=portrait].dm-device > .device {
+	background-image: url("../img/iphone6_port_silver.png");
+}
+[data-device=iphone6][data-color=silver][data-orientation=landscape].dm-device > .device {
+	background-image: url("../img/iphone6_land_silver.png");
+}
+[data-device=iphone6][data-color=gold].dm-device > .device {
+	background-image: url("../img/iphone6_port_gold.png");
+}
+[data-device=iphone6][data-color=gold][data-orientation=portrait].dm-device > .device {
+	background-image: url("../img/iphone6_port_gold.png");
+}
+[data-device=iphone6][data-color=gold][data-orientation=landscape].dm-device > .device {
+	background-image: url("../img/iphone6_land_gold.png");
+}
+[data-device=iphone6].dm-device > .device > .screen {
+	left: 6.6%; top: 12.2%; right: 6.6%; bottom: 12.1%;
+}
+[data-device=iphone6][data-orientation=portrait].dm-device > .device > .screen {
+	left: 6.6%; top: 12.2%; right: 6.6%; bottom: 12.1%;
+}
+[data-device=iphone6][data-orientation=landscape].dm-device > .device > .screen {
+	left: 11.6%; top: 6%; right: 11.6%; bottom: 6.1%;
+}
+[data-device=iphone6-plus].dm-device {
+	padding-bottom: 200.47%;
+}
+[data-device=iphone6-plus][data-orientation=portrait].dm-device {
+	padding-bottom: 200.47%;
+}
+[data-device=iphone6-plus][data-orientation=landscape].dm-device {
+	padding-bottom: 49.97%;
+}
+[data-device=iphone6-plus].dm-device > .device {
+	background-image: url("../img/iphone6_plus_port_black.png");
+}
+[data-device=iphone6-plus][data-color=black].dm-device > .device {
+	background-image: url("../img/iphone6_plus_port_black.png");
+}
+[data-device=iphone6-plus][data-color=black][data-orientation=portrait].dm-device > .device {
+	background-image: url("../img/iphone6_plus_port_black.png");
+}
+[data-device=iphone6-plus][data-orientation=landscape].dm-device > .device {
+	background-image: url("../img/iphone6_plus_land_black.png");
+}
+[data-device=iphone6-plus][data-color=black][data-orientation=landscape].dm-device > .device {
+	background-image: url("../img/iphone6_plus_land_black.png");
+}
+[data-device=iphone6-plus][data-color=silver].dm-device > .device {
+	background-image: url("../img/iphone6_plus_port_silver.png");
+}
+[data-device=iphone6-plus][data-color=silver][data-orientation=portrait].dm-device > .device {
+	background-image: url("../img/iphone6_plus_port_silver.png");
+}
+[data-device=iphone6-plus][data-color=silver][data-orientation=landscape].dm-device > .device {
+	background-image: url("../img/iphone6_plus_land_silver.png");
+}
+[data-device=iphone6-plus][data-color=gold].dm-device > .device {
+	background-image: url("../img/iphone6_plus_port_gold.png");
+}
+[data-device=iphone6-plus][data-color=gold][data-orientation=portrait].dm-device > .device {
+	background-image: url("../img/iphone6_plus_port_gold.png");
+}
+[data-device=iphone6-plus][data-color=gold][data-orientation=landscape].dm-device > .device {
+	background-image: url("../img/iphone6_plus_land_gold.png");
+}
+[data-device=iphone6-plus].dm-device > .device > .screen {
+	left: 6.6%; top: 11.4%; right: 6.2%; bottom: 11.6%;
+}
+[data-device=iphone6-plus][data-orientation=portrait].dm-device > .device > .screen {
+	left: 6.6%; top: 11.4%; right: 6.2%; bottom: 11.6%;
+}
+[data-device=iphone6-plus][data-orientation=landscape].dm-device > .device > .screen {
+	left: 11.4%; top: 6.3%; right: 11.6%; bottom: 6.5%;
+}
+[data-device=lumia920].dm-device {
+	padding-bottom: 172.79%;
+}
+[data-device=lumia920][data-orientation=portrait].dm-device {
+	padding-bottom: 172.79%;
+}
+[data-device=lumia920][data-orientation=landscape].dm-device {
+	padding-bottom: 56.33%;
+}
+[data-device=lumia920].dm-device > .device {
+	background-image: url("../img/lumia920_port.png");
+}
+[data-device=lumia920][data-orientation=portrait].dm-device > .device {
+	background-image: url("../img/lumia920_port.png");
+}
+[data-device=lumia920][data-orientation=landscape].dm-device > .device {
+	background-image: url("../img/lumia920_land.png");
+}
+[data-device=lumia920].dm-device > .device > .screen {
+	left: 13.52%; top: 10.64%; right: 13.52%; bottom: 18.99%;
+}
+[data-device=lumia920][data-orientation=portrait].dm-device > .device > .screen {
+	left: 13.52%; top: 10.64%; right: 13.52%; bottom: 18.99%;
+}
+[data-device=lumia920][data-orientation=landscape].dm-device > .device > .screen {
+	left: 10.54%; top: 12.26%; right: 18.6%; bottom: 12.26%;
+}
+[data-device=macbook].dm-device {
+	padding-bottom: 61.77%;
+}
+[data-device=macbook].dm-device > .device {
+	background-image: url("../img/macbook.png");
+}
+[data-device=macbook].dm-device > .device > .screen {
+	left: 13.36%; top: 11.04%; right: 13.36%; bottom: 14.67%;
+}
+[data-device=nexus7].dm-device {
+	padding-bottom: 156.52%;
+}
+[data-device=nexus7][data-orientation=portrait].dm-device {
+	padding-bottom: 156.52%;
+}
+[data-device=nexus7][data-orientation=landscape].dm-device {
+	padding-bottom: 63.66%;
+}
+[data-device=nexus7].dm-device > .device {
+	background-image: url("../img/nexus7_port.png");
+}
+[data-device=nexus7][data-orientation=portrait].dm-device > .device {
+	background-image: url("../img/nexus7_port.png");
+}
+[data-device=nexus7][data-orientation=landscape].dm-device > .device {
+	background-image: url("../img/nexus7_land.png");
+}
+[data-device=nexus7].dm-device > .device > .screen {
+	left: 13.76%; top: 13.13%; right: 13.76%; bottom: 12.78%;
+}
+[data-device=nexus7][data-orientation=portrait].dm-device > .device > .screen {
+	left: 13.76%; top: 13.13%; right: 13.76%; bottom: 12.78%;
+}
+[data-device=nexus7][data-orientation=landscape].dm-device > .device > .screen {
+	left: 13.09%; top: 13.76%; right: 13.09%; bottom: 13.76%;
+}
+[data-device=s3].dm-device {
+	padding-bottom: 178.78%;
+}
+[data-device=s3][data-orientation=portrait].dm-device {
+	padding-bottom: 178.78%;
+}
+[data-device=s3][data-orientation=landscape].dm-device {
+	padding-bottom: 55.93%;
+}
+[data-device=s3].dm-device > .device {
+	background-image: url("../img/s3_port_black.png");
+}
+[data-device=s3][data-color=black].dm-device > .device {
+	background-image: url("../img/s3_port_black.png");
+}
+[data-device=s3][data-color=black][data-orientation=portrait].dm-device > .device {
+	background-image: url("../img/s3_port_black.png");
+}
+[data-device=s3][data-orientation=landscape].dm-device > .device {
+	background-image: url("../img/s3_land_black.png");
+}
+[data-device=s3][data-color=black][data-orientation=landscape].dm-device > .device {
+	background-image: url("../img/s3_land_black.png");
+}
+[data-device=s3][data-color=white].dm-device > .device {
+	background-image: url("../img/s3_port_white.png");
+}
+[data-device=s3][data-color=white][data-orientation=portrait].dm-device > .device {
+	background-image: url("../img/s3_port_white.png");
+}
+[data-device=s3][data-color=white][data-orientation=landscape].dm-device > .device {
+	background-image: url("../img/s3_land_white.png");
+}
+[data-device=s3].dm-device > .device > .screen {
+	left: 13.83%; top: 12.37%; right: 13.83%; bottom: 15.53%;
+}
+[data-device=s3][data-orientation=portrait].dm-device > .device > .screen {
+	left: 13.83%; top: 12.37%; right: 13.83%; bottom: 15.53%;
+}
+[data-device=s3][data-orientation=landscape].dm-device > .device > .screen {
+	left: 12.37%; top: 13.83%; right: 15.53%; bottom: 13.83%;
+}
+.dm-device {
+	width: 100%; padding-bottom: 61.77%; margin-bottom: 20px; position: relative;
+}
+.dm-device img {
+	height: auto; max-width: 100%;
+}
+.dm-device > .device {
+	left: 0px; top: 0px; width: 100%; height: 100%; right: 0px; bottom: 0px; position: absolute; background-repeat: no-repeat; background-size: 100% 100%; -webkit-background-size: 100% 100%;
+}
+.dm-device > .device > .screen {
+	left: 13.36%; top: 11.04%; right: 13.36%; bottom: 14.67%; overflow: hidden; position: absolute; background-color: rgb(60, 60, 60);
+}
+.dm-device > .device > .screen .embed-youtube {
+	width: 100% !important; height: 100% !important;
+}
+.dm-device > .device > .screen iframe {
+	width: 100% !important; height: 100% !important;
+}
+[data-device=surface].dm-device {
+	padding-bottom: 64.75%;
+}
+[data-device=surface][data-orientation=landscape].dm-device {
+	padding-bottom: 64.75%;
+}
+[data-device=surface][data-orientation=landscape].dm-device > .device {
+	background-image: url("../img/surface.png");
+}
+[data-device=surface][data-orientation=landscape].dm-device > .device > .screen {
+	left: 9.36%; top: 14.54%; right: 9.36%; bottom: 14.91%;
+}
+[data-device=surface].dm-device > .device {
+	background-image: url("../img/surface.png");
+}
+[data-device=surface].dm-device > .device > .screen {
+	left: 9.36%; top: 14.54%; right: 9.36%; bottom: 14.91%;
+}
+.dm-stacked {
+	width: 100%; height: auto; margin-bottom: 20px; position: relative;
+}
+.dm-stacked .dm-stacked-left {
+	bottom: 0px; position: absolute; z-index: 10;
+}
+.dm-stacked .dm-stacked-right {
+	bottom: 0px; position: absolute; z-index: 10;
+}
+.dm-stacked .iphone6.dm-stacked-left {
+	width: 17%;
+}
+.dm-stacked .iphone6.dm-stacked-right {
+	width: 17%;
+}
+.dm-stacked .landscape.iphone6.dm-stacked-left {
+	width: 39%;
+}
+.dm-stacked .landscape.iphone6.dm-stacked-right {
+	width: 39%;
+}
+.dm-stacked .iphone6-plus.dm-stacked-left {
+	width: 21%;
+}
+.dm-stacked .iphone6-plus.dm-stacked-right {
+	width: 21%;
+}
+.dm-stacked .landscape.iphone6-plus.dm-stacked-left {
+	width: 46%;
+}
+.dm-stacked .landscape.iphone6-plus.dm-stacked-right {
+	width: 46%;
+}
+.dm-stacked .iphone5s.dm-stacked-left {
+	width: 17%;
+}
+.dm-stacked .iphone5s.dm-stacked-right {
+	width: 17%;
+}
+.dm-stacked .landscape.iphone5s.dm-stacked-left {
+	width: 37%;
+}
+.dm-stacked .landscape.iphone5s.dm-stacked-right {
+	width: 37%;
+}
+.dm-stacked .iphone5.dm-stacked-left {
+	width: 16%;
+}
+.dm-stacked .iphone5.dm-stacked-right {
+	width: 16%;
+}
+.dm-stacked .landscape.iphone5.dm-stacked-left {
+	width: 35%;
+}
+.dm-stacked .landscape.iphone5.dm-stacked-right {
+	width: 35%;
+}
+.dm-stacked .ipad.dm-stacked-left {
+	width: 45%; bottom: -12px;
+}
+.dm-stacked .ipad.dm-stacked-right {
+	width: 45%; bottom: -12px;
+}
+.dm-stacked .landscape.ipad.dm-stacked-left {
+	width: 65%;
+}
+.dm-stacked .landscape.ipad.dm-stacked-right {
+	width: 65%;
+}
+.dm-stacked .s3.dm-stacked-left {
+	width: 20%;
+}
+.dm-stacked .s3.dm-stacked-right {
+	width: 20%;
+}
+.dm-stacked .landscape.s3.dm-stacked-left {
+	width: 45%;
+}
+.dm-stacked .landscape.s3.dm-stacked-right {
+	width: 45%;
+}
+.dm-stacked .nexus7.dm-stacked-left {
+	width: 30%;
+}
+.dm-stacked .nexus7.dm-stacked-right {
+	width: 30%;
+}
+.dm-stacked .landscape.nexus7.dm-stacked-left {
+	width: 50%;
+}
+.dm-stacked .landscape.nexus7.dm-stacked-right {
+	width: 50%;
+}
+.dm-stacked .lumia920.dm-stacked-left {
+	width: 20%;
+}
+.dm-stacked .lumia920.dm-stacked-right {
+	width: 20%;
+}
+.dm-stacked .landscape.lumia920.dm-stacked-left {
+	width: 36%;
+}
+.dm-stacked .landscape.lumia920.dm-stacked-right {
+	width: 36%;
+}
+.dm-stacked .surface.dm-stacked-left {
+	width: 45%;
+}
+.dm-stacked .surface.dm-stacked-right {
+	width: 45%;
+}
+.dm-stacked .dm-stacked-left {
+	left: 50px;
+}
+.dm-stacked .dm-stacked-right {
+	right: 50px;
+}
+.dm-stacked .dm-device {
+	margin-bottom: 0px;
+}
+@media screen and (max-width:768px)
+{
+.dm-stacked .dm-stacked-left {
+	left: 10px;
+}
+.dm-stacked .dm-stacked-right {
+	right: 10px;
+}
+}
+.dm-hide-left {
+	overflow: hidden; margin-left: -70px;
+}
+.dm-hide-left .dm-device {
+	right: 33.33%; position: relative;
+}
+.dm-hide-right {
+	overflow: hidden; margin-right: -70px;
+}
+.dm-hide-right .dm-device {
+	left: 33.33%; position: relative;
+}
+[data-device=chrome].dm-browser > .device {
+	background-image: url("../img/chrome.png");
+}
+[data-device=chrome].dm-browser > .device > .screen {
+	border: 1px solid rgb(243, 242, 243); border-image: none; top: 12.4%;
+}
+[data-device=firefox].dm-browser > .device {
+	background-image: url("../img/firefox.png");
+}
+[data-device=firefox].dm-browser > .device > .screen {
+	border: 1px solid rgb(246, 246, 246); border-image: none; top: 13.3%;
+}
+.dm-browser {
+	width: 100%; padding-bottom: 61.77%; margin-bottom: 20px; position: relative;
+}
+.dm-browser img {
+	height: auto; border-right-color: currentColor !important; border-right-width: 0px !important; border-right-style: none !important; max-width: 100%;
+}
+.dm-browser > .device {
+	left: 0px; top: 0px; width: 100%; height: 100%; right: 0px; bottom: 0px; position: absolute; background-repeat: no-repeat; background-size: 100% 100%; -webkit-background-size: 100% 100%;
+}
+.dm-browser > .device > .screen {
+	left: 0px; top: 15.04%; right: 0px; bottom: 0px; overflow: hidden; position: absolute; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; background-color: rgb(255, 255, 255);
+}
+.dm-browser > .device > .screen .embed-youtube {
+	width: 100% !important; height: 100% !important;
+}
+.dm-browser > .device > .screen iframe {
+	width: 100% !important; height: 100% !important;
+}
+[data-device=safari].dm-browser > .device {
+	background-image: url("../img/safari.png");
+}
+[data-device=safari].dm-browser > .device > .screen {
+	border: 1px solid rgb(238, 238, 238); border-image: none; top: 5.9%;
+}
+.flex-container a:active {
+	outline: 0px;
+}
+.flex-container a:focus {
+	outline: 0px;
+}
+.flexslider a:active {
+	outline: 0px;
+}
+.flexslider a:focus {
+	outline: 0px;
+}
+.flex-control-nav {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.flex-direction-nav {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.slides {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.flexslider {
+	padding: 0px;
+}
+.flexslider .slides > li {
+	display: none; -webkit-backface-visibility: hidden;
+}
+.flexslider .slides img {
+	width: 100%; display: block;
+}
+.flex-pauseplay span {
+	text-transform: capitalize;
+}
+.slides::after {
+	height: 0px; line-height: 0; clear: both; display: block; visibility: hidden; content: ".";
+}
+html[xmlns] .slides {
+	display: block;
+}
+* html .slides {
+	height: 1%;
+}
+.no-js .slides > li:first-child {
+	display: block;
+}
+.flexslider {
+	margin: 0px 0px 60px; position: relative; -ms-zoom: 1;
+}
+.flex-viewport {
+	transition:1s; max-height: 2000px; -webkit-transition: all 1s ease; -o-transition: all 1s ease;
+}
+.loading .flex-viewport {
+	max-height: 300px;
+}
+.flexslider .slides {
+	-ms-zoom: 1;
+}
+.carousel li {
+	margin-right: 5px;
+}
+.flex-direction-nav {
+	
+}
+.flex-direction-nav a {
+	margin: -24px 0px 0px; transition:0.3s; top: 50%; width: 40px; height: 40px; overflow: hidden; text-decoration: none; display: block; position: absolute; z-index: 10; cursor: pointer; opacity: 0; -webkit-transition: all .3s ease; -o-transition: all .3s ease;
+}
+.flex-direction-nav .flex-prev {
+	left: -50px; width: 0px; height: 0px; border-top-color: transparent; border-right-color: rgba(0, 0, 0, 0.4); border-bottom-color: transparent; border-top-width: 12px; border-right-width: 12px; border-bottom-width: 12px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid;
+}
+.flex-direction-nav .flex-next {
+	width: 0px; height: 0px; text-align: right; right: -50px; border-top-color: transparent; border-bottom-color: transparent; border-left-color: rgba(0, 0, 0, 0.4); border-top-width: 12px; border-bottom-width: 12px; border-left-width: 12px; border-top-style: solid; border-bottom-style: solid; border-left-style: solid;
+}
+.flexslider:hover .flex-prev {
+	left: 10px; opacity: 0.7;
+}
+.flexslider:hover .flex-next {
+	right: 10px; opacity: 0.7;
+}
+.flexslider:hover .flex-next:hover {
+	opacity: 1;
+}
+.flexslider:hover .flex-prev:hover {
+	opacity: 1;
+}
+.flex-control-nav {
+	width: 100%; text-align: center; bottom: -40px; position: absolute;
+}
+.flex-control-nav li {
+	margin: 0px 6px; display: inline-block; -ms-zoom: 1;
+}
+.flex-control-paging li a {
+	background: rgba(0, 0, 0, 0.5); border-radius: 20px; width: 11px; height: 11px; text-indent: -9999px; display: block; cursor: pointer; box-shadow: inset 0px 0px 3px rgba(0,0,0,0.3); -o-border-radius: 20px; -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, .3); -o-box-shadow: inset 0 0 3px rgba(0, 0, 0, .3);
+}
+.flex-control-paging li a:hover {
+	background: rgba(0, 0, 0, 0.7);
+}
+.flex-control-paging li a.flex-active {
+	background: rgba(0, 0, 0, 0.9); cursor: default;
+}
+.flex-control-thumbs {
+	margin: 5px 0px 0px; overflow: hidden; position: static;
+}
+.flex-control-thumbs li {
+	margin: 0px; width: 25%; float: left;
+}
+.flex-control-thumbs img {
+	width: 100%; display: block; cursor: pointer; opacity: 0.7;
+}
+.flex-control-thumbs img:hover {
+	opacity: 1;
+}
+.flex-control-thumbs .flex-active {
+	cursor: default; opacity: 1;
+}
+.flex-caption {
+	margin: 0px; padding: 10px; left: 0px; right: 0px; bottom: 0px; position: absolute; background-color: rgba(0, 0, 0, 0.75);
+}
+@media screen and (max-width:860px)
+{
+.flex-direction-nav .flex-prev {
+	left: 10px; opacity: 1;
+}
+.flex-direction-nav .flex-next {
+	right: 10px; opacity: 1;
+}
+}

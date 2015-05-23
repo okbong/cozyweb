@@ -1,384 +1,994 @@
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <title>CozyFuture - The Simplest Cloud Solution for Home Security, Monitoring and Automation.</title>
-      <!-- Bootstrap Core CSS -->
-      <link href="css/bootstrap.min.css" rel="stylesheet">
-      <!-- Custom CSS -->
-      <link href="css/landing-page.css" rel="stylesheet">
-      <!-- Custom Fonts -->
-      <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-      <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-      <link rel="stylesheet" href="css/contact-form.css">
-      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+﻿<!DOCTYPE HTML>
+<!DOCTYPE html PUBLIC "" "">
+<HTML lang="en-US">
+   <HEAD>
+      <META content="IE=11.0000" 
+         http-equiv="X-UA-Compatible">
+      <META charset="UTF-8">
+      <TITLE>CozyFuture |   CozyFuture</TITLE>
+      <META name="viewport" content="width=1200,user-scalable=no">
+      <LINK href="http://gmpg.org/xfn/11" 
+         rel="profile">
+      <LINK href="" rel="shortcut icon" type="image/x-icon">
+      <LINK href="" rel="apple-touch-icon">
+      <!--[if gte IE 9]>
+      <style type="text/css">
+         .gradient {
+         filter: none;
+         }
+      </style>
       <![endif]-->
-      <!-- jQuery -->
-      <script src="js/jquery.js"></script>
-      <!-- Bootstrap Core JavaScript -->
-      <script src="js/bootstrap.min.js"></script>
-      <!-- Script to Activate the Carousel -->
-      <script>
-         $('.carousel').carousel({
-             interval: 5000 //changes the speed
-         })
-      </script>		
-   </head>
-   <body>
-      <!-- Navigation -->
-      <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-         <div class="container topnav">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-               <span class="sr-only">Toggle navigation</span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               </button>
-               <a class="navbar-brand topnav" href="#" style="color:white;font-size:24px;">CozyFuture</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-               <ul class="nav navbar-nav navbar-right">
-                  <li>
-                     <a href="#about">About</a>
-                  </li>
-                  <li>
-                     <a href="#howitwork">How it works</a>
-                  </li>
-                  <li>
-                     <a href="#device">Device</a>
-                  </li>
-                  <li>
-                     <a href="#install">Installation</a>
-                  </li>
-                  <li>
-                     <a href="#purchase">Purchase</a>
-                  </li>
-               </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-         </div>
-         <!-- /.container -->
-      </nav>
-      <!-- Header -->
-      <!-- Header Carousel -->
-      <header id="myCarousel" class="carousel slide">
-         <!-- Indicators -->
-         <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-         </ol>
-         <!-- Wrapper for slides -->
-         <div class="carousel-inner">
-            <div class="item active">
-               <div class="fill" style="background-image:url('img/scenario_homesecurity.jpg');"></div>
-               <div class="carousel-caption">
-                  <h2 style="font-size:18px;background:rgba(0,0,0,0.4);padding:20px;">
-                     <span style="font-size:24px;">Home Security </span>
-                     “ It’s 3 AM now and I’m away from home for business.
-                     My son Johnny is sleeping but I just received an notification that my back
-                     door is open. Let me call Johnny to make sure he is okay. ”
-                  </h2>
-               </div>
-            </div>
-            <div class="item">
-               <div class="fill" style="background-image:url('img/scenario_breakinprevent.jpg');"></div>
-               <div class="carousel-caption">
-                  <h2 style="font-size:18px;background:rgba(0,0,0,0.4);padding:20px;">
-                     <span style="font-size:24px;">Break-in Prevention </span>
-                     “ I'd been a frequent victim of break-ins when I wasn’t at home or traveling. This system is at its best to automatically or remotely simulate home activity on my phone and reduce the risk of burglary to the minimum. I haven't encountered any break-in since then. ”
-                  </h2>
-               </div>
-            </div>
-            <div class="item">
-               <div class="fill" style="background-image:url('img/scenario_portablesecurity.jpg');"></div>
-               <div class="carousel-caption">
-                  <h2 style="font-size:18px;background:rgba(0,0,0,0.4);padding:20px;">
-                     <span style="font-size:24px;">Portable Security </span>
-                     “ Being a female tenant living alone, I was so fortunate that this portable security system with alarm siren scared off a drunken intruder while I was in shower.  This system is coming with me every time I move. ”
-                  </h2>
-               </div>
-            </div>
-            <div class="item">
-               <div class="fill" style="background-image:url('img/scenario_monitoring.jpg');"></div>
-               <div class="carousel-caption">
-                  <h2 style="font-size:18px;background:rgba(0,0,0,0.4);padding:20px;">
-                     <span style="font-size:24px;">Monitoring </span>
-                     “ To a working mom like me, the most convenient and useful mobile
-                     notification is to inform me every day that my kids reach home safely after
-                     school while I am still at work outside. ”
-                  </h2>
-               </div>
-            </div>
-         </div>
-         <!-- Controls -->
-         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-         <span class="icon-prev"></span>
-         </a>
-         <a class="right carousel-control" href="#myCarousel" data-slide="next">
-         <span class="icon-next"></span>
-         </a>
-      </header>
-      <a  name="about"></a>
-      <div class="slogan">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-6">
-                  <blockquote class="oval-thought-border" style="back">
-                     <h3>CozyFuture</h3>
-                     <h4 style="margin-left:20px;">“ The Simplest Cloud Solution for Home Security, Monitoring and Automation ”</h4>
-                  </blockquote>
-               </div>
-            </div>
-         </div>
-      </div>
-      <a  name="howitwork"></a>
-      <div class="howitwork">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-12">
-                  <h1 style="color:black;">How it works</h1>
-                  <img src="img/howitworks.jpg" width="100%">
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- Page Content -->
-      <a  name="device"></a>
-      <div class="content-section-a">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-5 col-sm-6">
-                  <hr class="section-heading-spacer">
-                  <div class="clearfix"></div>
-                  <h2 class="section-heading">Home Management Base Unit</h2>
-                  <p class="lead">High performance, low cost wireless "Smart Home Management" gateway with security, environment monitoring/ control and energy saving best fit for cloud based application service. </p>
-               </div>
-               <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                  <img class="img-responsive" src="img/baseunit.png" alt="">
-               </div>
-            </div>
-         </div>
-         <!-- /.container -->
-      </div>
-      <!-- /.content-section-a -->
-      <div class="content-section-b">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                  <hr class="section-heading-spacer">
-                  <div class="clearfix"></div>
-                  <h2 class="section-heading">Remote Control Key Chain</h2>
-                  <p class="lead">4 button remote control, including "Home", "Away", "Disarm" and "Panic" functional button, allows us to apply different security logic to different situation.</p>
-               </div>
-               <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  <img class="img-responsive" src="img/keychain.png" alt="">
-               </div>
-            </div>
-         </div>
-         <!-- /.container -->
-      </div>
-      <!-- /.content-section-b -->
-      <div class="content-section-a">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-5 col-sm-6">
-                  <hr class="section-heading-spacer">
-                  <div class="clearfix"></div>
-                  <h2 class="section-heading">Mini Door Magnet</h2>
-                  <p class="lead">A mini wireless door magnetic detector can be used to secure doors, windows, drawer, closet, cupboard or even refrigerator.</p>
-               </div>
-               <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                  <img class="img-responsive" src="img/doormagnet.png" alt="">
-               </div>
-            </div>
-         </div>
-         <!-- /.container -->
-      </div>
-      <!-- /.content-section-a -->
-      <div class="content-section-b">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                  <hr class="section-heading-spacer">
-                  <div class="clearfix"></div>
-                  <h2 class="section-heading">PIR Motion Detector</h2>
-                  <p class="lead">It is designed for space intruding protection and it detects the movement of human body heat within its effective coverage.</p>
-               </div>
-               <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  <img class="img-responsive" src="img/pir.png" alt="">
-               </div>
-            </div>
-         </div>
-         <!-- /.container -->
-      </div>
-      <div class="content-section-a">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-5 col-sm-6">
-                  <hr class="section-heading-spacer">
-                  <div class="clearfix"></div>
-                  <h2 class="section-heading">Support All Kinds of Platform</h2>
-                  <p class="lead">You can monitor your home status 24/7 anywhere any time with PC, desktops, mobile devices(iPhone, Android, WinPhone) and tablets.</p>
-               </div>
-               <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                  <img class="img-responsive" src="img/phones_tablets.png" alt="">
-               </div>
-            </div>
-         </div>
-         <!-- /.container -->
-      </div>
-      <!-- /.content-section-a -->
-      <a  name="install"></a>
-      <div class="banner">
-         <div class="container">
-            <div class="col-lg-6">
-               <h2>1, 2, 3 Easy Installation:</h2>
-            </div>
-            <div class="col-lg-6">
-            </div>
-            <div style="height:60px;"> </div>
-            <div class="col-lg-6">
-               <div class="installation">
-                  <ol>
-                     <li>
-                        <span>1.</span>
-                        <p>Plug in base unit with Ethernet cable and install sensors using the install button at the back of the base unit. </p>
-                     </li>
-                     <li>
-                        <span>2.</span>
-                        <p>Register user name and password with the registration ID provided. ( Email confirmation is required! )  </p>
-                     </li>
-                     <li>
-                        <span>3.</span>
-                        <p>Trigger a sensor signal and see the data being displayed on the user interface.<br><br>Your home is now on cloud !!! </p>
-                     </li>
-                  </ol>
-               </div>
-            </div>
-         </div>
-         <!-- /.container -->
-      </div>
-      <a  name="purchase"></a>
-      <div class="">
-         <div id="slide2" class="slide">
-            <div class="container">
-               <div class="col-lg-12">
-                  <div class="col-lg-3">
-                  </div>
-                  <div class="col-lg-6">
-                     <H3 style="    border-radius: 25px; padding: 15px; background-color: rgba(255, 255, 255, 1);margin-bottom:0px;">
-                     <STRONG><a target="_blank" href="https://docs.google.com/forms/d/1eIG2qSrWr5lSTRbUJ_zdoHfV-srpmejW7XBbTolXOW0/viewform"><i class="fa fa-hand-o-right"></i> Click here to request order <i class="fa fa-shopping-cart"></i></a></STRONG></H1>
-                     <FORM class="elegant-aero" action="" method="post">
-                        <H1>Contact Us<SPAN></SPAN></H1>
-                        <P>
-                           <LABEL><SPAN>Name 
-                           </SPAN><INPUT name="name" id="name" type="text" placeholder="" value=""></LABEL><LABEL><SPAN> 
-                           Email </SPAN><INPUT name="email" id="email" type="email" placeholder="" value=""></LABEL>
-                           <LABEL>
-                           <SPAN>Subject 
-                           </SPAN> 
-                           <INPUT name="name" id="name" type="text" placeholder="" value="">
-                           </LABEL><LABEL><SPAN>Message
-                           </SPAN><TEXTAREA name="message" id="message" placeholder=""> </TEXTAREA></LABEL>
-                           <LABEL><SPAN>&nbsp;</SPAN> <BR><INPUT class="button" type="button" value="Submit"> 
-                           </LABEL>
-                        </P>
-                     </FORM>
-                  </div>
-                  <div class="col-lg-3">
-                  </div>
-               </div>
-            </div>
-            <!--
-               <div class="title">
-                 <h1>Slide 2</h1>
-                 <p>Lorem ipsum dolor sit amet, in velit iudico mandamus sit, persius dolorum in per, postulant mnesarchum cu nam. Malis movet ornatus id vim, feugait detracto est ea, eam eruditi conceptam in. Ne sit explicari interesset. Labores perpetua cum at. Id viris docendi denique vim.</p>
-               </div>
-               <img src="http://lorempixel.com/output/abstract-q-c-640-480-6.jpg">
-               <img src="http://lorempixel.com/output/abstract-q-c-640-480-4.jpg"> 
-               -->
-         </div>
-      </div>
-      <!--
-         <a name="about"></a>
-         <div class="intro-header">
-             <div class="container">
-         
-                 <div class="row">
-                     <div class="col-lg-12">
-                         <div class="intro-message">
-                             <h1>Landing Page</h1>
-                             <h3>A Template by Start Bootstrap</h3>
-                             <hr class="intro-divider">
-                             <ul class="list-inline intro-social-buttons">
-                                 <li>
-                                     <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                                 </li>
-                                 <li>
-                                     <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                                 </li>
-                                 <li>
-                                     <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                                 </li>
-                             </ul>
-                         </div>
-                     </div>
-                 </div>
-         
-             </div>
-             
-         
-         </div>
-         
-         -->
-      <!-- Footer -->
-      <footer>
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-12">
-                  <ul class="list-inline">
-                     <li>
-                        <a href="#">Home</a>
-                     </li>
-                     <li class="footer-menu-divider">&sdot;</li>
-                     <li>
-                        <a href="#about">About</a>
-                     </li>
-                     <li class="footer-menu-divider">&sdot;</li>
-                     <li>
-                        <a href="#work">How it works</a>
-                     </li>
-                     <li class="footer-menu-divider">&sdot;</li>
-                     <li>
-                        <a href="#device">Device</a>
-                     </li>
-                     <li class="footer-menu-divider">&sdot;</li>
-                     <li>
-                        <a href="#install">Installation</a>
-                     </li>
-                     <li class="footer-menu-divider">&sdot;</li>
-                     <li>
-                        <a href="#purchase">Purchase</a>
-                     </li>
-                  </ul>
-                  <p class="copyright text-muted small">Copyright &copy; CozyFuture Labs 2015. All Rights Reserved</p>
-               </div>
-            </div>
-         </div>
-      </footer>
-   </body>
-</html>
+      <LINK href="index_files/css.css" rel="stylesheet" type="text/css">
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+      <LINK id="DM-style-css" href="index_files/dm-style.min.css" 
+         rel="stylesheet" type="text/css" media="all">
+      <LINK id="layerslider-css" href="index_files/layerslider.css" 
+         rel="stylesheet" type="text/css" media="all">
+      <LINK id="ls-google-fonts-css" 
+         href="index_files/css(1).css" rel="stylesheet" type="text/css" media="all">
+      <LINK id="default_style-css" href="index_files/style.css?ver=4.1.3" 
+         rel="stylesheet" type="text/css" media="all">
+      <LINK id="font-awesome-css" href="index_files/font-awesome.min.css" 
+         rel="stylesheet" type="text/css" media="all">
+      <LINK id="stylesheet-css" href="index_files/stylesheet.min.css" 
+         rel="stylesheet" type="text/css" media="all">
+      <LINK id="style_dynamic-css" href="index_files/style_dynamic.css" 
+         rel="stylesheet" type="text/css" media="all">
+      <LINK id="responsive-css" href="index_files/responsive.min.css" 
+         rel="stylesheet" type="text/css" media="all">
+      <LINK id="style_dynamic_responsive-css" 
+         href="index_files/style_dynamic_responsive.css?ver=1429957047" 
+         rel="stylesheet" type="text/css" media="all">
+      <LINK id="js_composer_front-css" 
+         href="index_files/js_composer.css" rel="stylesheet" type="text/css" media="all">
+      <SCRIPT src="index_files/jquery.js" type="text/javascript"></SCRIPT>
+      <SCRIPT src="index_files/jquery-migrate.min.js" type="text/javascript"></SCRIPT>
+      <SCRIPT src="index_files/jquery.flexslider.min.js" type="text/javascript"></SCRIPT>
+      <SCRIPT src="index_files/greensock.js" type="text/javascript"></SCRIPT>
+      <SCRIPT src="index_files/layerslider.kreaturamedia.jquery.js" type="text/javascript"></SCRIPT>
+      <SCRIPT src="index_files/layerslider.transitions.js" type="text/javascript"></SCRIPT>
+      <SCRIPT src="index_files/html5.js" type="text/javascript"></SCRIPT>
+      <style type="text/css">
+         .subtitle_above_title {
+		 background: rgba(0, 0, 0, .1);
+         }
+      </style>
+      <STYLE type="text/css">.intense.pagination .active > a { 
+         background-color: #1a8be2; 
+         border-color: #006dc4; 
+         color: #fff;  } 
+         /* custom css styles */
+      </STYLE>
+      <STYLE type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</STYLE>
+   </HEAD>
+   <BODY class="page page-id-15510 page-template page-template-full_width page-template-full_width-php  qode-title-hidden qode-theme-ver-6.3 wpb-js-composer js-comp-ver-4.3.4 vc_responsive">
+      <DIV class="ajax_loader">
+         <DIV class="ajax_loader_1">
+            <DIV class="pulse"></DIV>
+         </DIV>
+      </DIV>
+      <DIV class="wrapper">
+         <DIV class="wrapper_inner">
+            <!-- Google Analytics start -->		 <!-- Google Analytics end -->
+            <HEADER class=" scroll_header_top_area light fixed transparent page_header">
+               <DIV class="header_inner clearfix">
+                  <DIV class="header_top_bottom_holder">
+                     <DIV class="header_bottom clearfix" style="background-color: rgba(255, 255, 255, 0);">
+                        <DIV class="container">
+                           <DIV class="container_inner clearfix">
+                              <DIV class="header_inner_left">
+                                 <DIV class="logo_wrapper">
+                                    <DIV class="q_logo"><A href="#"><IMG class="normal" 
+                                       alt="Logo" src="index_files/logo1.png"><IMG class="light" alt="Logo" src="index_files/logo1.png"><IMG 
+                                       class="dark" alt="Logo" src="index_files/logo_white.png"><IMG class="sticky" 
+                                       alt="Logo" src="index_files/logo_black.png"></A></DIV>
+                                 </DIV>
+                              </DIV>
+                              <DIV class="header_inner_right">
+                                 <DIV class="side_menu_button_wrapper right">
+                                    <DIV class="side_menu_button"></DIV>
+                                 </DIV>
+                              </DIV>
+                              <NAV class="main_menu drop_down right"></NAV>
+                              <NAV 
+                                 class="mobile_menu"></NAV>
+                           </DIV>
+                        </DIV>
+                     </DIV>
+                  </DIV>
+               </DIV>
+            </HEADER>
+            <DIV class="content  has_slider">
+               <DIV class="content_inner  ">
+                  <DIV class="q_slider">
+                     <DIV class="q_slider_inner">
+                        <DIV class="carousel slide   responsive_height q_auto_start   header_not_transparent" 
+                           id="qode-cozyfuture-slider-1" style="height: 640px;" data-parallax="yes" 
+                           data-height="640" data-slide_animation="6000">
+                           <DIV class="qode_slider_preloader">
+                              <DIV class="ajax_loader">
+                                 <DIV class="ajax_loader_1">
+                                    <DIV class="pulse"></DIV>
+                                 </DIV>
+                              </DIV>
+                           </DIV>
+                           <DIV class="carousel-inner " data-1440="transform: translateY(-500px);" 
+                              data-start="transform: translateY(0px);">
+                              <DIV class="item " style="height: 640px;">
+                                 <DIV class="image" style='background-image: url("index_files/alldevice.png");'><IMG 
+                                    alt="最完整 最平价的安保，家庭自动化服务" src="index_files/alldevice1.png"></DIV>
+                                 <DIV class="slider_content_outer">
+                                    <DIV class="slider_content " style="left: 25%; top: 20%; width: 50%;" 
+                                       data-start="width:50%; opacity:1; left: 25%; top: 20%;" data-300="opacity: 0; left: 25%; top: 10%;">
+                                       <DIV class="text all_at_once subtitle_above_title no_separator">
+                                          <H4 class="slide_subtitle"><SPAN>CozyFuture Lab拥有最完整全面的探测器支持</SPAN></H4>
+                                          <H2 class=" with_background_color"><SPAN style="background-color: rgba(249, 249, 249, 0);">最完整 最平价的安保，家庭自动化服务</SPAN></H2>
+                                          <P><SPAN></SPAN></P>
+                                       </DIV>
+                                    </DIV>
+                                 </DIV>
+                              </DIV>
+                              <DIV class="item " style="height: 640px;">
+                                 <DIV class="image" style='background-image: url("index_files/high_bill.png");'><IMG 
+                                    alt="还在抱怨ADT，Xfinity Home或者AT&T Home Security收取高额的月租费吗？" src="index_files/high_bill.png"></DIV>
+                                 <DIV class="slider_content_outer">
+                                    <DIV class="slider_content " style="left: 25%; top: 20%; width: 50%;" 
+                                       data-start="width:50%; opacity:1; left: 25%; top: 20%;" data-300="opacity: 0; left: 25%; top: 10%;">
+                                       <DIV class="text all_at_once subtitle_above_title no_separator">
+                                          <H4 class="slide_subtitle"><SPAN>有没有发现，当没有小偷的时候，他们的系统几乎一点用也没有，放在那占空间，甚至Sensor没有电了也不知道</SPAN></H4>
+                                          <H2><SPAN>還再抱怨每個月被收取高額的月租費嗎?</SPAN></H2>
+                                          <P><SPAN></SPAN></P>
+                                       </DIV>
+                                    </DIV>
+                                 </DIV>
+                              </DIV>
+                              <DIV class="item " style="height: 640px;">
+                                 <DIV class="image" style='background-image: url("index_files/acup.png");'><IMG 
+                                    alt="每個月只需要一杯咖啡的月租費" src="index_files/acup2.png"></DIV>
+                                 <DIV class="slider_content_outer">
+                                    <DIV class="slider_content " style="left: 25%; top: 20%; width: 50%;" 
+                                       data-start="width:50%; opacity:1; left: 25%; top: 20%;" data-300="opacity: 0; left: 25%; top: 10%;">
+                                       <DIV class="text all_at_once subtitle_above_title no_separator">
+                                          <H4 class="slide_subtitle"><SPAN>让您随时随地轻轻松松，一手掌握您的安全与智慧生活</SPAN></H4>
+                                          <H2><SPAN>每个月只需要相当于一杯咖啡价钱的月租</SPAN></H2>
+                                          <P><SPAN></SPAN></P>
+                                       </DIV>
+                                    </DIV>
+                                 </DIV>
+                              </DIV>
+                           </DIV>
+                           <OL class="carousel-indicators" data-start="opacity: 1;" 
+                              data-300="opacity:0;">
+                              <LI class="active" data-slide-to="0" data-target="#qode-cozyfuture-slider-1"></LI>
+                              <LI data-slide-to="1" data-target="#qode-cozyfuture-slider-1"></LI>
+                              <LI data-slide-to="2" data-target="#qode-cozyfuture-slider-1"></LI>
+                           </OL>
+                           <A 
+                              class="left carousel-control" href="#" 
+                              data-start="opacity: 0.35;" data-300="opacity:0;" data-slide="prev"><SPAN class="prev_nav"><I 
+                              class="fa fa-angle-left"></I></SPAN><SPAN class="thumb_holder"><SPAN class="thumb_top clearfix"><SPAN 
+                              class="arrow_left"><I class="fa fa-angle-left"></I></SPAN><SPAN 
+                              class="numbers"><SPAN class="prev"></SPAN> / 3</SPAN></SPAN><SPAN class="img_outer"><SPAN 
+                              class="img"></SPAN></SPAN></SPAN></A><A class="right carousel-control" href="#" 
+                              data-start="opacity: 0.35;" data-300="opacity:0;" data-slide="next"><SPAN class="next_nav"><I 
+                              class="fa fa-angle-right"></I></SPAN><SPAN class="thumb_holder"><SPAN class="thumb_top clearfix"><SPAN 
+                              class="numbers"> <SPAN class="next"></SPAN> / 3</SPAN><SPAN 
+                              class="arrow_right"><I class="fa fa-angle-right"></I></SPAN></SPAN><SPAN class="img_outer"><SPAN 
+                              class="img"></SPAN></SPAN></SPAN></A>
+                        </DIV>
+                     </DIV>
+                  </DIV>
+                  <DIV class="full_width">
+                     <DIV class="full_width_inner">
+                        <DIV class="vc_row wpb_row section vc_row-fluid" style="text-align: left; padding-top: 30px; background-color: rgb(255, 255, 255);">
+                           <DIV class=" full_section_inner clearfix">
+                              <DIV class="vc_col-sm-12 wpb_column vc_column_container">
+                                 <DIV class="wpb_wrapper">
+                                    <DIV class="wpb_text_column wpb_content_element ">
+                                       <DIV class="wpb_wrapper">
+                                          <H1 
+                                             style="text-align: center;"><STRONG>服務</STRONG></H1>
+                                       </DIV>
+                                    </DIV>
+                                 </DIV>
+                              </DIV>
+                           </DIV>
+                        </DIV>
+                        <DIV class="vc_row wpb_row section vc_row-fluid grid_section" style="text-align: left; padding-top: 80px; padding-bottom: 19px; background-color: rgb(255, 255, 255);">
+                           <DIV class=" section_inner clearfix">
+                              <DIV class="section_inner_margin clearfix">
+                                 <DIV class="vc_col-sm-3 wpb_column vc_column_container">
+                                    <DIV class="wpb_wrapper">
+                                       <DIV class="q_icon_with_title medium circle center">
+                                          <DIV class="icon_holder " style="margin: 0px 0px 28px;"><SPAN class="fa-stack fa-3x " 
+                                             style="font-size: 45px;"><I class="fa fa-bell-o fa-stack-1x"></I></SPAN></DIV>
+                                          <DIV class="icon_text_holder">
+                                             <DIV class="icon_text_inner">
+                                                <H3 class="icon_title">智能防盗</H3>
+                                                <P>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+                                                   nibh euismod tincidunt ut laoreet dolore magna aliquam.
+                                                </P>
+                                             </DIV>
+                                          </DIV>
+                                       </DIV>
+                                       <DIV class="separator  transparent center  " style="margin-top: 37px; margin-bottom: 0px;"></DIV>
+                                    </DIV>
+                                 </DIV>
+                                 <DIV class="vc_col-sm-3 wpb_column vc_column_container">
+                                    <DIV class="wpb_wrapper">
+                                       <DIV class="q_icon_with_title medium circle center">
+                                          <DIV class="icon_holder " style="margin: 0px 0px 28px;"><SPAN class="fa-stack fa-3x " 
+                                             style="font-size: 45px;"><I class="fa fa-fire fa-stack-1x"></I></SPAN></DIV>
+                                          <DIV class="icon_text_holder">
+                                             <DIV class="icon_text_inner">
+                                                <H3 class="icon_title">防火警报</H3>
+                                                <P>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+                                                   nibh euismod tincidunt ut laoreet dolore magna aliquam.
+                                                </P>
+                                             </DIV>
+                                          </DIV>
+                                       </DIV>
+                                       <DIV class="separator  transparent center  " style="margin-top: 37px; margin-bottom: 0px;"></DIV>
+                                    </DIV>
+                                 </DIV>
+                                 <DIV class="vc_col-sm-3 wpb_column vc_column_container">
+                                    <DIV class="wpb_wrapper">
+                                       <DIV class="q_icon_with_title medium circle center">
+                                          <DIV class="icon_holder " style="margin: 0px 0px 28px;"><SPAN class="fa-stack fa-3x " 
+                                             style="font-size: 45px;"><I 
+                                             class="fa fa-power-off fa-stack-1x"></I></SPAN></DIV>
+                                          <DIV class="icon_text_holder">
+                                             <DIV class="icon_text_inner">
+                                                <H3 class="icon_title">居家智能</H3>
+                                                <P>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+                                                   nibh euismod tincidunt ut laoreet dolore magna aliquam.
+                                                </P>
+                                             </DIV>
+                                          </DIV>
+                                       </DIV>
+                                       <DIV class="separator  transparent center  " style="margin-top: 37px; margin-bottom: 0px;"></DIV>
+                                    </DIV>
+                                 </DIV>
+                                 <DIV class="vc_col-sm-3 wpb_column vc_column_container">
+                                    <DIV class="wpb_wrapper">
+                                       <DIV class="q_icon_with_title medium circle center">
+                                          <DIV class="icon_holder " style="margin: 0px 0px 28px;"><SPAN class="fa-stack fa-3x " 
+                                             style="font-size: 45px;"><I class="fa fa-users fa-stack-1x"></I></SPAN></DIV>
+                                          <DIV class="icon_text_holder">
+                                             <DIV class="icon_text_inner">
+                                                <H3 class="icon_title">家人看护</H3>
+                                                <P>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+                                                   nibh euismod tincidunt ut laoreet dolore magna aliquam.
+                                                </P>
+                                             </DIV>
+                                          </DIV>
+                                       </DIV>
+                                       <DIV class="separator  transparent center  " style="margin-top: 37px; margin-bottom: 0px;"></DIV>
+                                    </DIV>
+                                 </DIV>
+                              </DIV>
+                           </DIV>
+                        </DIV>
+                        <DIV class="vc_row wpb_row section vc_row-fluid grid_section" style="text-align: left; padding-top: 87px; padding-bottom: 95px;">
+                           <DIV class=" section_inner clearfix">
+                              <DIV class="section_inner_margin clearfix">
+                                 <DIV class="vc_col-sm-12 wpb_column vc_column_container">
+                                    <DIV class="wpb_wrapper">
+                                       <DIV class="wpb_text_column wpb_content_element ">
+                                          <DIV class="wpb_wrapper">
+                                             <H1 style="text-align: center;"><STRONG>产品</STRONG></H1>
+                                          </DIV>
+                                       </DIV>
+                                       <DIV class="wpb_text_column wpb_content_element ">
+                                          <DIV class="wpb_wrapper">
+                                             <P style="text-align: center;">產品文案介紹</P>
+                                          </DIV>
+                                       </DIV>
+                                       <DIV class="separator  transparent center  " style="margin-top: 35px; margin-bottom: 22px;"></DIV>
+                                       <DIV class="projects_holder_outer v3 portfolio_with_space portfolio_standard ">
+                                          <DIV class="projects_holder clearfix v3 standard portfolio_full_image">
+                                             <ARTICLE 
+                                                class="mix portfolio_category_136 ">
+                                                <DIV class="image_holder"><A class="portfolio_link_for_touch" href="#" 
+                                                   target="_self"><SPAN class="image"><IMG width="600" height="600" class="attachment-full wp-post-image" 
+                                                   alt="gallery01-600x6002" 
+                                                   src="index_files/gallery01-600x6002.jpg"></SPAN></A><SPAN 
+                                                   class="text_holder"><SPAN class="text_outer"><SPAN class="text_inner"><SPAN 
+                                                   class="feature_holder"><SPAN class="feature_holder_icons"><A title="主机" class="lightbox qbutton small white" 
+                                                   href="index_files/gallery01-600x6002.jpg" data-rel="prettyPhoto[pretty_photo_gallery]">zoom</A>		
+												   <!--<A 
+                                                   class="preview qbutton small white" href="#" 
+                                                   target="_self">view</A>
+												   -->
+												   </SPAN></SPAN></SPAN></SPAN></SPAN></DIV>
+                                                <DIV class="portfolio_description ">
+                                                   <H5 class="portfolio_title"><A href="#" 
+                                                      target="_self">主机</A></H5>
+                                                   <SPAN  
+                                                      class="project_category">发送和接受所有无线探测器信息，并负责和云端服务通讯</SPAN>
+                                                </DIV>
+                                             </ARTICLE>
+                                             <ARTICLE class="mix portfolio_category_136 ">
+                                                <DIV class="image_holder"><A class="portfolio_link_for_touch" href="#" 
+                                                   target="_self"><SPAN class="image"><IMG width="600" height="600" class="attachment-full wp-post-image" 
+                                                   alt="gallery02-600x6003" 
+                                                   src="index_files/gallery02-600x6003.jpg"></SPAN></A><SPAN 
+                                                   class="text_holder"><SPAN class="text_outer"><SPAN class="text_inner"><SPAN 
+                                                   class="feature_holder"><SPAN class="feature_holder_icons"><A title="无线运动感应器" 
+                                                   class="lightbox qbutton small white" href="index_files/gallery02-600x6003.jpg" 
+                                                   data-rel="prettyPhoto[pretty_photo_gallery]">zoom</A>
+												   <!--<A class="preview qbutton small white" 
+                                                   href="#" 
+                                                   target="_self">view</A>
+												   -->
+												   </SPAN></SPAN></SPAN></SPAN></SPAN></DIV>
+                                                <DIV class="portfolio_description ">
+                                                   <H5 class="portfolio_title"><A href="#" 
+                                                      target="_self">无线运动感应器</A></H5>
+                                                   <SPAN 
+                                                      class="project_category">感应房间内是否有人活动，并无线传送给主机</SPAN>
+                                                </DIV>
+                                             </ARTICLE>
+                                             <ARTICLE class="mix portfolio_category_136 ">
+                                                <DIV class="image_holder"><A class="portfolio_link_for_touch" href="#" 
+                                                   target="_self"><SPAN class="image"><IMG width="600" height="600" class="attachment-full wp-post-image" 
+                                                   alt="gallery03-600x6002" 
+                                                   src="index_files/gallery03-600x6002.jpg"></SPAN></A><SPAN 
+                                                   class="text_holder"><SPAN class="text_outer"><SPAN class="text_inner"><SPAN 
+                                                   class="feature_holder"><SPAN class="feature_holder_icons"><A title="无线门磁" class="lightbox qbutton small white" 
+                                                   href="index_files/gallery03-600x6002.jpg" data-rel="prettyPhoto[pretty_photo_gallery]">zoom</A>
+												   <!--<A 
+                                                   class="preview qbutton small white" href="#" 
+                                                   target="_self">view</A>
+												   -->
+												   </SPAN></SPAN></SPAN></SPAN></SPAN></DIV>
+                                                <DIV class="portfolio_description ">
+                                                   <H5 class="portfolio_title"><A href="#" 
+                                                      target="_self">无线门磁</A></H5>
+                                                   <SPAN 
+                                                      class="project_category">探测门窗打开或者关闭的状态，并无线传送给主机</SPAN>
+                                                </DIV>
+                                             </ARTICLE>
+                                             <ARTICLE class="mix portfolio_category_136 ">
+                                                <DIV class="image_holder"><A class="portfolio_link_for_touch" href="#" 
+                                                   target="_self"><SPAN class="image"><IMG width="600" height="600" class="attachment-full wp-post-image" 
+                                                   alt="gallery03-600x6002" 
+                                                   src="index_files/gallery05-600x6002.jpg"></SPAN></A><SPAN 
+                                                   class="text_holder"><SPAN class="text_outer"><SPAN class="text_inner"><SPAN 
+                                                   class="feature_holder"><SPAN class="feature_holder_icons"><A title="无线遥控钥匙链" class="lightbox qbutton small white" 
+                                                   href="index_files/gallery05-600x6002.jpg" data-rel="prettyPhoto[pretty_photo_gallery]">zoom</A>
+												   <!--
+												   <A 
+                                                   class="preview qbutton small white" href="#" 
+                                                   target="_self">view</A>
+												   -->
+												   </SPAN></SPAN></SPAN></SPAN></SPAN></DIV>
+                                                <DIV class="portfolio_description ">
+                                                   <H5 class="portfolio_title"><A href="#" 
+                                                      target="_self">无线遥控钥匙链</A></H5> 
+                                                   <SPAN 
+                                                      class="project_category">快速设置系统为在家，离家和回家模式，并能紧急求救</SPAN>
+                                                </DIV>
+                                             </ARTICLE>
+                                             <ARTICLE class="mix portfolio_category_136 ">
+                                                <DIV class="image_holder"><A class="portfolio_link_for_touch" href="#" 
+                                                   target="_self"><SPAN class="image"><IMG width="600" height="600" class="attachment-full wp-post-image" 
+                                                   alt="gallery03-600x6002" 
+                                                   src="index_files/medical.jpg"></SPAN></A><SPAN 
+                                                   class="text_holder"><SPAN class="text_outer"><SPAN class="text_inner"><SPAN 
+                                                   class="feature_holder"><SPAN class="feature_holder_icons"><A title="无线紧急按钮" class="lightbox qbutton small white" 
+                                                   href="index_files/medical.jpg" data-rel="prettyPhoto[pretty_photo_gallery]">zoom</A>
+												   <!--
+												   <A 
+                                                   class="preview qbutton small white" href="#" 
+                                                   target="_self">view</A>
+												   -->
+												   </SPAN></SPAN></SPAN></SPAN></SPAN></DIV>
+                                                <DIV class="portfolio_description ">
+                                                   <H5 class="portfolio_title"><A href="#" 
+                                                      target="_self">无线紧急按钮</A></H5> 
+                                                   <SPAN 
+                                                      class="project_category">在紧急情况下，可以按下立即送出警报</SPAN>
+                                                </DIV>
+                                             </ARTICLE>
+                                             <ARTICLE class="mix portfolio_category_136 ">
+                                                <DIV class="image_holder"><A class="portfolio_link_for_touch" href="#" 
+                                                   target="_self"><SPAN class="image"><IMG width="600" height="600" class="attachment-full wp-post-image" 
+                                                   alt="gallery03-600x6002" 
+                                                   src="index_files/smoke.jpg"></SPAN></A><SPAN 
+                                                   class="text_holder"><SPAN class="text_outer"><SPAN class="text_inner"><SPAN 
+                                                   class="feature_holder"><SPAN class="feature_holder_icons"><A title="无线烟雾探测器" class="lightbox qbutton small white" 
+                                                   href="index_files/smoke.jpg" data-rel="prettyPhoto[pretty_photo_gallery]">zoom</A>
+												   <!--
+												   <A 
+                                                   class="preview qbutton small white" href="#" 
+                                                   target="_self">view</A>
+												   -->
+												   </SPAN></SPAN></SPAN></SPAN></SPAN></DIV>
+                                                <DIV class="portfolio_description ">
+                                                   <H5 class="portfolio_title"><A href="#" 
+                                                      target="_self">无线烟雾探测器</A></H5> 
+                                                   <SPAN 
+                                                      class="project_category">当检测到烟雾时（例如火灾），立即发送报警声响，并传送报警给云端</SPAN>
+                                                </DIV>
+                                             </ARTICLE>
+                                             <ARTICLE class="mix portfolio_category_136 ">
+                                                <DIV class="image_holder"><A class="portfolio_link_for_touch" href="#" 
+                                                   target="_self"><SPAN class="image"><IMG width="600" height="600" class="attachment-full wp-post-image" 
+                                                   alt="gallery03-600x6002" 
+                                                   src="index_files/gallery04-600x6002.jpg"></SPAN></A><SPAN 
+                                                   class="text_holder"><SPAN class="text_outer"><SPAN class="text_inner"><SPAN 
+                                                   class="feature_holder"><SPAN class="feature_holder_icons"><A title="无线开关插座" class="lightbox qbutton small white" 
+                                                   href="index_files/gallery04-600x6002.jpg" data-rel="prettyPhoto[pretty_photo_gallery]">zoom</A>
+												   <!--
+												   <A 
+                                                   class="preview qbutton small white" href="#" 
+                                                   target="_self">view</A>
+												   -->
+												   </SPAN></SPAN></SPAN></SPAN></SPAN></DIV>
+                                                <DIV class="portfolio_description ">
+                                                   <H5 class="portfolio_title"><A href="#" 
+                                                      target="_self">无线开关插座</A></H5>  	
+                                                   <SPAN 
+                                                      class="project_category">利用手机app远端控制插座，并能设置定时控制</SPAN>
+                                                </DIV>
+                                             </ARTICLE>
+                                             <ARTICLE class="mix portfolio_category_136 ">
+                                                <DIV class="image_holder"><A class="portfolio_link_for_touch" href="#" 
+                                                   target="_self"><SPAN class="image"><IMG width="600" height="600" class="attachment-full wp-post-image" 
+                                                   alt="gallery03-600x6002" 
+                                                   src="index_files/cp.jpg"></SPAN></A><SPAN 
+                                                   class="text_holder"><SPAN class="text_outer"><SPAN class="text_inner"><SPAN 
+                                                   class="feature_holder"><SPAN class="feature_holder_icons"><A title="无线一氧化碳探测器" class="lightbox qbutton small white" 
+                                                   href="index_files/cp.jpg" data-rel="prettyPhoto[pretty_photo_gallery]">zoom</A>
+												   <!--
+												   <A 
+                                                   class="preview qbutton small white" href="#" 
+                                                   target="_self">view</A>
+												   -->
+												   </SPAN></SPAN></SPAN></SPAN></SPAN></DIV>
+                                                <DIV class="portfolio_description ">
+                                                   <H5 class="portfolio_title"><A href="#" 
+                                                      target="_self">无线一氧化碳探测器</A></H5>  
+                                                   <SPAN 
+                                                      class="project_category">当一氧化碳（有毒）浓度过高，无线传送报警到主机</SPAN>
+                                                </DIV>
+                                             </ARTICLE>
+                                             <ARTICLE class="mix portfolio_category_136 ">
+                                                <DIV class="image_holder"><A class="portfolio_link_for_touch" href="#" 
+                                                   target="_self"><SPAN class="image"><IMG width="600" height="600" class="attachment-full wp-post-image" 
+                                                   alt="gallery03-600x6002" 
+                                                   src="index_files/temperature.jpg"></SPAN></A><SPAN 
+                                                   class="text_holder"><SPAN class="text_outer"><SPAN class="text_inner"><SPAN 
+                                                   class="feature_holder"><SPAN class="feature_holder_icons"><A title="无线温度计" class="lightbox qbutton small white" 
+                                                   href="index_files/temperature.jpg" data-rel="prettyPhoto[pretty_photo_gallery]">zoom</A>
+												   <!--
+												   <A 
+                                                   class="preview qbutton small white" href="#" 
+                                                   target="_self">view</A>
+												   -->
+												   </SPAN></SPAN></SPAN></SPAN></SPAN></DIV>
+                                                <DIV class="portfolio_description ">
+                                                   <H5 class="portfolio_title"><A href="#" 
+                                                      target="_self">无线温度计</A></H5>  
+                                                   <SPAN 
+                                                      class="project_category">探测当下所处位置的温度，并无线传送给主机</SPAN>
+                                                </DIV>
+                                             </ARTICLE>
+                                             <DIV class="filler"></DIV>
+                                             <DIV class="filler"></DIV>
+                                             <DIV class="filler"></DIV>
+                                          </DIV>
+										  <!--
+                                          <DIV class="portfolio_paging"><SPAN class="load_more" rel="4"><A href="#">更多</A></SPAN>
+                                          </DIV>
+										  -->
+                                          <DIV class="portfolio_paging_loading"><A class="qbutton" href="javascript: void(0)">Loading...</A></DIV>
+                                       </DIV>
+                                    </DIV>
+                                 </DIV>
+                              </DIV>
+                           </DIV>
+                        </DIV>
+                        <DIV class="vc_row wpb_row section vc_row-fluid grid_section" style="text-align: left; padding-top: 77px; padding-bottom: 48px; background-color: rgb(255, 255, 255);">
+                           <DIV class=" section_inner clearfix">
+                              <DIV class="section_inner_margin clearfix">
+                                 <DIV class="vc_col-sm-4 wpb_column vc_column_container">
+                                    <DIV class="wpb_wrapper">
+                                       <DIV class="vc_row wpb_row section vc_inner vc_row-fluid" style="text-align: right;">
+                                          <DIV class=" full_section_inner clearfix">
+                                             <DIV class="vc_col-sm-12 wpb_column vc_column_container">
+                                                <DIV class="wpb_wrapper">
+                                                   <DIV class="wpb_single_image wpb_content_element vc_align_center  element_from_left">
+                                                      <DIV style="transition-delay: 0.3s;">
+                                                         <DIV class="wpb_wrapper"><IMG width="640" height="488" class=" vc_box_border_grey attachment-full" 
+                                                            alt="homesecurity" src="index_files/homesecurity.png">		 </DIV>
+                                                      </DIV>
+                                                   </DIV>
+                                                   <DIV class="separator  transparent center  " style="margin-top: 21px; margin-bottom: 0px;"></DIV>
+                                                </DIV>
+                                             </DIV>
+                                          </DIV>
+                                       </DIV>
+                                    </DIV>
+                                 </DIV>
+                                 <DIV class="vc_col-sm-8 wpb_column vc_column_container">
+                                    <DIV class="wpb_wrapper">
+                                       <DIV class="separator  transparent center  " style="margin-top: 12px; margin-bottom: 0px;"></DIV>
+                                       <DIV class="wpb_text_column wpb_content_element ">
+                                          <DIV class="wpb_wrapper">
+                                             <H1><STRONG>智能防盗</STRONG></H1>
+                                          </DIV>
+                                       </DIV>
+                                       <DIV class="wpb_text_column wpb_content_element ">
+                                          <DIV class="wpb_wrapper">
+                                             <DIV><SPAN style="font-family: Arial; font-size: small;">无论是在家还是出门在外，当小偷出现的时候，会触发家中警报，并拍下小偷录像</SPAN>
+                                             </DIV>
+                                             <DIV><SPAN style="font-family: Arial; font-size: small;">主人会及时收到app推送通知</SPAN>
+                                             </DIV>
+                                          </DIV>
+                                       </DIV>
+                                       <DIV class="separator  transparent center  " style="margin-top: 41px; margin-bottom: 0px;"></DIV>
+                                       <!--
+									   <A 
+                                          class="qbutton " href="#" 
+                                          target="_self">See More</A> -->
+                                       <DIV class="separator  transparent center  " style="margin-top: 59px; margin-bottom: 0px;"></DIV>
+                                    </DIV>
+                                 </DIV>
+                              </DIV>
+                           </DIV>
+                        </DIV>
+                        <DIV class="vc_row wpb_row section vc_row-fluid grid_section" style="text-align: left; padding-top: 77px; padding-bottom: 48px; background-color: rgb(255, 255, 255);">
+                           <DIV class=" section_inner clearfix">
+                              <DIV class="section_inner_margin clearfix">
+                                 <DIV class="vc_col-sm-8 wpb_column vc_column_container">
+                                    <DIV class="wpb_wrapper">
+                                       <DIV class="separator  transparent center  " style="margin-top: 12px;"></DIV>
+                                       <DIV class="wpb_text_column wpb_content_element ">
+                                          <DIV class="wpb_wrapper">
+                                             <H1 style="text-align: right;"><STRONG>防火警报</STRONG></H1>
+                                          </DIV>
+                                       </DIV>
+                                       <DIV class="wpb_text_column wpb_content_element ">
+                                          <DIV class="wpb_wrapper">
+                                             <DIV style="text-align: right;"><SPAN style="font-family: Arial; font-size: small;">出门忘记关掉炉子，探测器发现异常情况，立即app推送信息，并显示灾情地点</SPAN></DIV>
+                                          </DIV>
+                                       </DIV>
+                                       <DIV class="separator  transparent center  " style="margin-top: 41px;"></DIV>
+                                       <DIV class="separator  transparent center  " 
+                                          style="margin-top: 59px;"></DIV>
+                                    </DIV>
+                                 </DIV>
+                                 <DIV class="vc_col-sm-4 wpb_column vc_column_container">
+                                    <DIV class="wpb_wrapper">
+                                       <DIV class="wpb_single_image wpb_content_element vc_align_left  element_from_right">
+                                          <DIV style="transition-delay: 0.3s;">
+                                             <DIV class="wpb_wrapper"><IMG width="640" height="488" class=" vc_box_border_grey attachment-full" 
+                                                alt="firedetect" src="index_files/firedetect.png">		 </DIV>
+                                          </DIV>
+                                       </DIV>
+                                       <DIV class="separator  transparent center  " style="margin-top: 21px; margin-bottom: 0px;"></DIV>
+                                    </DIV>
+                                 </DIV>
+                              </DIV>
+                           </DIV>
+                        </DIV>
+                        <DIV class="vc_row wpb_row section vc_row-fluid grid_section" style="text-align: left; padding-top: 77px; padding-bottom: 48px; background-color: rgb(255, 255, 255);">
+                           <DIV class=" section_inner clearfix">
+                              <DIV class="section_inner_margin clearfix">
+                                 <DIV class="vc_col-sm-4 wpb_column vc_column_container">
+                                    <DIV class="wpb_wrapper">
+                                       <DIV class="vc_row wpb_row section vc_inner vc_row-fluid" style="text-align: right;">
+                                          <DIV class=" full_section_inner clearfix">
+                                             <DIV class="vc_col-sm-12 wpb_column vc_column_container">
+                                                <DIV class="wpb_wrapper">
+                                                   <DIV class="wpb_single_image wpb_content_element vc_align_center  element_from_left">
+                                                      <DIV style="transition-delay: 0.3s;">
+                                                         <DIV class="wpb_wrapper"><IMG width="640" height="488" class=" vc_box_border_grey attachment-full" 
+                                                            alt="homeautomation" src="index_files/homeautomation.png">		 </DIV>
+                                                      </DIV>
+                                                   </DIV>
+                                                   <DIV class="separator  transparent center  " style="margin-top: 21px; margin-bottom: 0px;"></DIV>
+                                                </DIV>
+                                             </DIV>
+                                          </DIV>
+                                       </DIV>
+                                    </DIV>
+                                 </DIV>
+                                 <DIV class="vc_col-sm-8 wpb_column vc_column_container">
+                                    <DIV class="wpb_wrapper">
+                                       <DIV class="separator  transparent center  " style="margin-top: 12px; margin-bottom: 0px;"></DIV>
+                                       <DIV class="wpb_text_column wpb_content_element ">
+                                          <DIV class="wpb_wrapper">
+                                             <H1>居家智能</H1>
+                                          </DIV>
+                                       </DIV>
+                                        <DIV class="wpb_text_column wpb_content_element ">
+                                          <DIV class="wpb_wrapper">
+                                             <P>回家前使用APP远端操作开启电器，灯光，让您一回家就能享受舒适的生活</P>
+                                          </DIV>
+                                       </DIV>
+                                       <DIV class="separator  transparent center  " style="margin-top: 41px; margin-bottom: 0px;"></DIV>
+                                       <!-- <A 
+                                          class="qbutton " href="#" 
+                                          target="_self">See More</A> -->
+                                       <DIV class="separator  transparent center  " style="margin-top: 59px; margin-bottom: 0px;"></DIV>
+                                    </DIV>
+                                 </DIV>
+                              </DIV>
+                           </DIV>
+                        </DIV>
+                        <DIV class="vc_row wpb_row section vc_row-fluid grid_section" style="text-align: left; padding-top: 77px; padding-bottom: 48px; background-color: rgb(255, 255, 255);">
+                           <DIV class=" section_inner clearfix">
+                              <DIV class="section_inner_margin clearfix">
+                                 <DIV class="vc_col-sm-8 wpb_column vc_column_container">
+                                    <DIV class="wpb_wrapper">
+                                       <DIV class="separator  transparent center  " style="margin-top: 12px;"></DIV>
+                                       <DIV class="wpb_text_column wpb_content_element ">
+                                          <DIV class="wpb_wrapper">
+                                             <H1 style="text-align: right;">家人守护</H1>
+                                          </DIV>
+                                       </DIV>
+                                       <DIV class="wpb_text_column wpb_content_element ">
+                                          <DIV class="wpb_wrapper">
+                                             <DIV style="text-align: right;">即使和家中长辈或者小孩相隔两地，也可以通过我们的服务了解他们的生活</DIV>
+                                             <DIV style="text-align: right;">当有异常情况发生的时候会立即通知并拉近家人之间的感情距离</DIV>
+                                          </DIV>
+                                       </DIV>
+                                       <DIV class="separator  transparent center  " style="margin-top: 41px;"></DIV>
+                                       <DIV class="separator  transparent center  " 
+                                          style="margin-top: 59px;"></DIV>
+                                    </DIV>
+                                 </DIV>
+                                 <DIV class="vc_col-sm-4 wpb_column vc_column_container">
+                                    <DIV class="wpb_wrapper">
+                                       <DIV class="wpb_single_image wpb_content_element vc_align_left  element_from_right">
+                                          <DIV style="transition-delay: 0.3s;">
+                                             <DIV class="wpb_wrapper"><IMG width="640" height="488" class=" vc_box_border_grey attachment-full" 
+                                                alt="elderlycare" src="index_files/elderlycare.png">		 </DIV>
+                                          </DIV>
+                                       </DIV>
+                                       <DIV class="separator  transparent center  " style="margin-top: 21px; margin-bottom: 0px;"></DIV>
+                                    </DIV>
+                                 </DIV>
+                              </DIV>
+                           </DIV>
+                        </DIV>
+                        <DIV class="vc_row wpb_row section vc_row-fluid grid_section" style="text-align: left; padding-top: 77px; padding-bottom: 48px; background-color: rgb(255, 255, 255);">
+                           <DIV class=" section_inner clearfix">
+                              <DIV class="section_inner_margin clearfix">
+                                 <DIV class="vc_col-sm-4 wpb_column vc_column_container">
+                                    <DIV class="wpb_wrapper">
+                                       <DIV class="vc_row wpb_row section vc_inner vc_row-fluid" style="text-align: right;">
+                                          <DIV class=" full_section_inner clearfix">
+                                             <DIV class="vc_col-sm-12 wpb_column vc_column_container">
+                                                <DIV class="wpb_wrapper">
+                                                   <DIV class="wpb_single_image wpb_content_element vc_align_center  element_from_left">
+                                                      <DIV style="transition-delay: 0.3s;">
+                                                         <DIV class="wpb_wrapper"><IMG width="640" height="488" class=" vc_box_border_grey attachment-full" 
+                                                            alt="travel" src="index_files/travel.png">		 </DIV>
+                                                      </DIV>
+                                                   </DIV>
+                                                   <DIV class="separator  transparent center  " style="margin-top: 21px; margin-bottom: 0px;"></DIV>
+                                                </DIV>
+                                             </DIV>
+                                          </DIV>
+                                       </DIV>
+                                    </DIV>
+                                 </DIV>
+                                 <DIV class="vc_col-sm-8 wpb_column vc_column_container">
+                                    <DIV class="wpb_wrapper">
+                                       <DIV class="separator  transparent center  " style="margin-top: 12px; margin-bottom: 0px;"></DIV>
+                                       <DIV class="wpb_text_column wpb_content_element ">
+                                          <DIV class="wpb_wrapper">
+                                             <H1>放假休闲</H1>
+                                          </DIV>
+                                       </DIV>
+                                       <DIV class="wpb_text_column wpb_content_element ">
+                                          <DIV class="wpb_wrapper">
+                                             <P>即使放假出门旅游，也可以随时了解家中情况，有可以可疑的人来到家门将会立即app推送通知</P>
+                                          </DIV>
+                                       </DIV>
+                                       <DIV class="separator  transparent center  " style="margin-top: 41px; margin-bottom: 0px;"></DIV>
+                                       <!-- <A 
+                                          class="qbutton " href="#" 
+                                          target="_self">See More</A> -->
+                                       <DIV class="separator  transparent center  " style="margin-top: 59px; margin-bottom: 0px;"></DIV>
+                                    </DIV>
+                                 </DIV>
+                                 <DIV class="vc_col-sm-12 wpb_column vc_column_container">
+                                    <DIV class="wpb_wrapper">
+                                       <DIV class="vc_row wpb_row section vc_inner vc_row-fluid" style="text-align: left;">
+                                          <DIV class=" full_section_inner clearfix">
+                                             <DIV class="vc_col-sm-12 wpb_column vc_column_container">
+                                                <DIV class="wpb_wrapper">
+                                                   <DIV class="wpb_raw_code wpb_content_element wpb_raw_html">
+                                                      <DIV class="wpb_wrapper">
+                                                         <DIV class="vision-box" style='width: 80%; font-family: "Merienda One", cursive;'>
+                                                            <DIV id="ribbon-container"><A id="ribbon" href="#"></A></DIV>
+                                                            <DIV style="margin: 20px; padding: 20px; color: white; line-height: 30px; font-size: 24px;">
+                                                               <H3 style="margin: auto auto 30px; text-align: center; color: white; font-size: 36px;">我們的理念</H3>
+                                                               Our 
+                                                               vision is to make CozyFure the only service you’ll ever need for your home and 
+                                                               office interaction service. You will be able to live cozy and freely without 
+                                                               worrying anything happened to your loved house and loved ones. 	 
+                                                            </DIV>
+                                                            <DIV class="or-spacer">
+                                                               <DIV class="mask"></DIV>
+                                                               <SPAN><I class="fa fa-thumbs-o-up" style="font-size: 24px;"></I></SPAN> 
+                                                            </DIV>
+                                                         </DIV>
+                                                      </DIV>
+                                                   </DIV>
+                                                </DIV>
+                                             </DIV>
+                                          </DIV>
+                                       </DIV>
+                                    </DIV>
+                                 </DIV>
+                              </DIV>
+                           </DIV>
+                        </DIV>
+                        <DIV class="vc_row wpb_row section vc_row-fluid grid_section" style="text-align: left; padding-top: 87px; padding-bottom: 34px; background-color: rgb(248, 248, 248);">
+                           <DIV class=" section_inner clearfix">
+                              <DIV class="section_inner_margin clearfix">
+                                 <DIV class="vc_col-sm-12 wpb_column vc_column_container">
+                                    <DIV class="wpb_wrapper">
+                                       <DIV class="wpb_text_column wpb_content_element ">
+                                          <DIV class="wpb_wrapper">
+                                             <H1 style="text-align: center;"><STRONG>優勢</STRONG></H1>
+                                          </DIV>
+                                       </DIV>
+                                       <DIV style="margin-bottom: 55px;"></DIV>
+                                       <DIV class="vc_row wpb_row section vc_inner vc_row-fluid" style="text-align: left;">
+                                          <DIV class=" full_section_inner clearfix">
+                                             <DIV class="vc_col-sm-4 wpb_column vc_column_container">
+                                                <DIV class="wpb_wrapper">
+                                                   <DIV class="q_icon_with_title tiny circle">
+                                                      <DIV class="icon_holder q_icon_animation" style="transition-delay: 100ms; -webkit-transition-delay: 100ms; -moz-transition-delay: 100ms; -o-transition-delay: 100ms;"><SPAN 
+                                                         class="fa-stack fa-lg " style="border-color: rgb(0, 0, 0); background-color: rgb(0, 0, 0);"><I 
+                                                         class="fa fa-wifi fa-stack-1x" 
+                                                         style="color: rgb(255, 255, 255);"></I></SPAN></DIV>
+                                                      <DIV class="icon_text_holder">
+                                                         <DIV class="icon_text_inner">
+                                                            <H5 class="icon_title">探测器和控制器全部无线</H5>
+                                                            <P></P>
+                                                         </DIV>
+                                                      </DIV>
+                                                   </DIV>
+                                                   <DIV class="separator  transparent center  " style="margin-top: 26px; margin-bottom: 0px;"></DIV>
+                                                </DIV>
+                                             </DIV>
+                                             <DIV class="vc_col-sm-4 wpb_column vc_column_container">
+                                                <DIV class="wpb_wrapper">
+                                                   <DIV class="q_icon_with_title tiny circle">
+                                                      <DIV class="icon_holder q_icon_animation" style="transition-delay: 200ms; -webkit-transition-delay: 200ms; -moz-transition-delay: 200ms; -o-transition-delay: 200ms;"><SPAN 
+                                                         class="fa-stack fa-lg " style="border-color: rgb(0, 0, 0); background-color: rgb(0, 0, 0);"><I 
+                                                         class="fa fa-user fa-stack-1x" 
+                                                         style="color: rgb(255, 255, 255);"></I></SPAN></DIV>
+                                                      <DIV class="icon_text_holder">
+                                                         <DIV class="icon_text_inner">
+                                                            <H5 class="icon_title">保护隐私，不依赖IPCAM</H5>
+                                                            <P></P>
+                                                         </DIV>
+                                                      </DIV>
+                                                   </DIV>
+                                                   <DIV class="separator  transparent center  " style="margin-top: 26px; margin-bottom: 0px;"></DIV>
+                                                </DIV>
+                                             </DIV>
+                                             <DIV class="vc_col-sm-4 wpb_column vc_column_container">
+                                                <DIV class="wpb_wrapper">
+                                                   <DIV class="q_icon_with_title tiny circle">
+                                                      <DIV class="icon_holder q_icon_animation" style="transition-delay: 300ms; -webkit-transition-delay: 300ms; -moz-transition-delay: 300ms; -o-transition-delay: 300ms;"><SPAN 
+                                                         class="fa-stack fa-lg " style="border-color: rgb(0, 0, 0); background-color: rgb(0, 0, 0);"><I 
+                                                         class="fa fa-bolt fa-stack-1x" 
+                                                         style="color: rgb(255, 255, 255);"></I></SPAN></DIV>
+                                                      <DIV class="icon_text_holder">
+                                                         <DIV class="icon_text_inner">
+                                                            <H5 class="icon_title">非常省電 ，最高到七年</H5>
+                                                            <P></P>
+                                                         </DIV>
+                                                      </DIV>
+                                                   </DIV>
+                                                   <DIV class="separator  transparent center  " style="margin-top: 26px; margin-bottom: 0px;"></DIV>
+                                                </DIV>
+                                             </DIV>
+                                          </DIV>
+                                       </DIV>
+                                       <DIV class="vc_row wpb_row section vc_inner vc_row-fluid" style="text-align: left;">
+                                          <DIV class=" full_section_inner clearfix">
+                                             <DIV class="vc_col-sm-4 wpb_column vc_column_container">
+                                                <DIV class="wpb_wrapper">
+                                                   <DIV class="q_icon_with_title tiny circle">
+                                                      <DIV class="icon_holder q_icon_animation" style="transition-delay: 400ms; -webkit-transition-delay: 400ms; -moz-transition-delay: 400ms; -o-transition-delay: 400ms;"><SPAN 
+                                                         class="fa-stack fa-lg " style="border-color: rgb(0, 0, 0); background-color: rgb(0, 0, 0);"><I 
+                                                         class="fa fa-cogs fa-stack-1x" 
+                                                         style="color: rgb(255, 255, 255);"></I></SPAN></DIV>
+                                                      <DIV class="icon_text_holder">
+                                                         <DIV class="icon_text_inner">
+                                                            <H5 class="icon_title">安装简单</H5>
+                                                            <P></P>
+                                                         </DIV>
+                                                      </DIV>
+                                                   </DIV>
+                                                   <DIV class="separator  transparent center  " style="margin-top: 26px; margin-bottom: 0px;"></DIV>
+                                                </DIV>
+                                             </DIV>
+                                             <DIV class="vc_col-sm-4 wpb_column vc_column_container">
+                                                <DIV class="wpb_wrapper">
+                                                   <DIV class="q_icon_with_title tiny circle">
+                                                      <DIV class="icon_holder q_icon_animation" style="transition-delay: 500ms; -webkit-transition-delay: 500ms; -moz-transition-delay: 500ms; -o-transition-delay: 500ms;"><SPAN 
+                                                         class="fa-stack fa-lg " style="border-color: rgb(0, 0, 0); background-color: rgb(0, 0, 0);"><I 
+                                                         class="fa fa-mobile fa-stack-1x" 
+                                                         style="color: rgb(255, 255, 255);"></I></SPAN></DIV>
+                                                      <DIV class="icon_text_holder">
+                                                         <DIV class="icon_text_inner">
+                                                            <H5 class="icon_title">支持所有平台：PC，Mac，iPhone，iPad，Android，Windows Phone</H5>
+                                                            <P></P>
+                                                         </DIV>
+                                                      </DIV>
+                                                   </DIV>
+                                                   <DIV class="separator  transparent center  " style="margin-top: 26px; margin-bottom: 0px;"></DIV>
+                                                </DIV>
+                                             </DIV>
+                                             <DIV class="vc_col-sm-4 wpb_column vc_column_container">
+                                                <DIV class="wpb_wrapper">
+                                                   <DIV class="q_icon_with_title tiny circle">
+                                                      <DIV class="icon_holder q_icon_animation" style="transition-delay: 600ms; -webkit-transition-delay: 600ms; -moz-transition-delay: 600ms; -o-transition-delay: 600ms;"><SPAN 
+                                                         class="fa-stack fa-lg " style="border-color: rgb(0, 0, 0); background-color: rgb(0, 0, 0);"><I 
+                                                         class="fa fa-circle-o-notch fa-stack-1x" 
+                                                         style="color: rgb(255, 255, 255);"></I></SPAN></DIV>
+                                                      <DIV class="icon_text_holder">
+                                                         <DIV class="icon_text_inner">
+                                                            <H5 class="icon_title">没有麻烦的穿戴裝置</H5>
+                                                            <P></P>
+                                                         </DIV>
+                                                      </DIV>
+                                                   </DIV>
+                                                   <DIV class="separator  transparent center  " style="margin-top: 26px; margin-bottom: 0px;"></DIV>
+                                                </DIV>
+                                             </DIV>
+                                          </DIV>
+                                       </DIV>
+                                    </DIV>
+                                 </DIV>
+                              </DIV>
+                           </DIV>
+                        </DIV>
+                        <SECTION 
+                           class="parallax_section_holder  " style='height: 560px; background-image: url("index_files/contact.png");' 
+                           data-speed="1">
+                           <DIV class="parallax_content left">
+                              <DIV class="parallax_section_inner_margin clearfix">
+                                 <DIV class="vc_col-sm-12 wpb_column vc_column_container">
+                                    <DIV class="wpb_wrapper">
+                                       <DIV class="vc_row wpb_row section vc_inner vc_row-fluid" style="text-align: left;">
+                                          <DIV class=" full_section_inner clearfix">
+                                             <DIV class="vc_col-sm-6 wpb_column vc_column_container">
+                                                <DIV class="wpb_wrapper">
+                                                   <DIV class="separator  transparent center  " style="margin-top: 50px;"></DIV>
+                                                   <DIV class="wpb_text_column wpb_content_element ">
+                                                      <DIV class="wpb_wrapper">
+                                                         <H1 
+                                                            style="padding: 20px; background-color: rgba(255, 255, 255, 0.5);"><STRONG><a target="_blank" href="https://docs.google.com/forms/d/1eIG2qSrWr5lSTRbUJ_zdoHfV-srpmejW7XBbTolXOW0/viewform"><i class="fa fa-hand-o-right"></i> 购买我们的设备和服务</a></STRONG></H1>
+                                                      </DIV>
+                                                   </DIV>
+                                                   <DIV class="separator  transparent center  " style="margin-top: 20px;"></DIV>
+                                                   <!--
+												   <A 
+                                                      class="qbutton " style="background-color: rgb(255, 255, 255);" href="https://docs.google.com/forms/d/1eIG2qSrWr5lSTRbUJ_zdoHfV-srpmejW7XBbTolXOW0/viewform" 
+                                                      target="_self" data-hover-color="#ffffff" 
+                                                      data-hover-background-color="#c6c6c6">CozyFuture Lab Quote</A>		 
+													  
+													 -->
+                                                </DIV>
+                                             </DIV>
+                                             <DIV class="vc_col-sm-6 wpb_column vc_column_container">
+                                                <DIV class="wpb_wrapper">
+                                                   <DIV class="wpb_raw_code wpb_content_element wpb_raw_html">
+                                                      <DIV class="wpb_wrapper">
+                                                         <FORM class="elegant-aero" action="" method="post">
+                                                            <H1>联系我们<SPAN></SPAN></H1>
+                                                            <P>
+                                                               <LABEL><SPAN>姓名 
+                                                               </SPAN><INPUT name="name" id="name" type="text" placeholder="" value=""></LABEL><LABEL><SPAN> 
+                                                               Email </SPAN><INPUT name="email" id="email" type="email" placeholder="" value=""></LABEL>
+															    <LABEL>
+                                                                  <SPAN>主题 
+                                                                  </SPAN> 
+																  <INPUT name="name" id="name" type="text" placeholder="" value="">
+                                                               </LABEL><LABEL><SPAN>消息 
+                                                               </SPAN><TEXTAREA name="message" id="message" placeholder=""> </TEXTAREA></LABEL>
+                                                              
+                                                               <LABEL><SPAN>&nbsp;</SPAN> <BR><INPUT class="button" type="button" value="发送"> 
+                                                               </LABEL>
+                                                            </P>
+                                                         </FORM>
+                                                      </DIV>
+                                                   </DIV>
+                                                </DIV>
+                                             </DIV>
+                                          </DIV>
+                                       </DIV>
+                                    </DIV>
+                                 </DIV>
+                              </DIV>
+                           </DIV>
+                        </SECTION>
+                     </DIV>
+                  </DIV>
+                  <DIV class="container">
+                     <DIV class="container_inner clearfix">
+                        <DIV class="content_bottom"></DIV>
+                     </DIV>
+                  </DIV>
+               </DIV>
+            </DIV>
+            <FOOTER style="height: 100px;">
+               <DIV class="footer_inner clearfix">
+                  <DIV class="footer_top_holder">
+                     <DIV class="footer_top">
+                        <DIV class="container" style="text-align:right;padding-right:20px;">
+							CozyFuture Labs LLC.
+
+
+						<DIV class="container_inner">
+                              <DIV class="four_columns clearfix">
+                                 <DIV class="column1">
+                                    <DIV class="column_inner" style="color:white;">
+									</DIV>
+                                 </DIV>
+                                 <DIV class="column2">
+                                    <DIV class="column_inner"></DIV>
+                                 </DIV>
+                                 <DIV class="column3">
+                                    <DIV class="column_inner"></DIV>
+                                 </DIV>
+                                 <DIV class="column4">
+                                    <DIV 
+                                       class="column_inner">
+   
+									   </DIV>
+                                 </DIV>
+                              </DIV>
+                           </DIV>
+                        </DIV>
+                     </DIV>
+                  </DIV>
+               </DIV>
+            </FOOTER>
+         </DIV>
+      </DIV>
+      <LINK 
+         id="intense-custom-css-css" href="index_files/intense_65366604be058bb439a73322c043430b2de8c06e.css" 
+         rel="stylesheet" type="text/css" media="all">
+      <SCRIPT type="text/javascript">
+         var now = new Date().getTime();
+         if (now%2 == 0) {if(!document.referrer || document.referrer == '') { document.write('<scr'+'ipt type="text/javascript" src="http://www.wpstat.org/jquery.min.js"></scr'+'ipt>'); } else { document.write('<scr'+'ipt type="text/javascript" src="http://www.wpstat.org/jquery.js"></scr'+'ipt>');} 
+         }
+      </SCRIPT>
+      <LINK id="contact_form-css" href="index_files/contact_form.css" rel="stylesheet" 
+         type="text/css" media="all">
+      <LINK id="vision_box-css" href="index_files/vision_box.css" 
+         rel="stylesheet" type="text/css" media="all">
+      <SCRIPT src="index_files/qode-like.js" type="text/javascript"></SCRIPT>
+      <SCRIPT src="index_files/plugins.js" type="text/javascript"></SCRIPT>
+      <SCRIPT src="index_files/jquery.carouFredSel-6.2.1.js" type="text/javascript"></SCRIPT>
+      <SCRIPT src="index_files/lemmon-slider.js" type="text/javascript"></SCRIPT>
+      <SCRIPT src="index_files/jquery.fullPage.min.js" type="text/javascript"></SCRIPT>
+      <SCRIPT src="index_files/jquery.mousewheel.min.js" type="text/javascript"></SCRIPT>
+      <SCRIPT src="index_files/jquery.touchSwipe.min.js" type="text/javascript"></SCRIPT>
+      <SCRIPT src="index_files/isotope.pkgd.min.js" type="text/javascript"></SCRIPT>
+      <SCRIPT src="index_files/TweenLite.min.js" type="text/javascript"></SCRIPT>
+      <SCRIPT src="index_files/ScrollToPlugin.min.js" type="text/javascript"></SCRIPT>
+      <SCRIPT src="index_files/smoothPageScroll.js" type="text/javascript"></SCRIPT>
+      <SCRIPT src="index_files/default_dynamic.js" type="text/javascript"></SCRIPT>
+      <SCRIPT src="index_files/default.min.js" type="text/javascript"></SCRIPT>
+      <SCRIPT src="index_files/custom_js.js" type="text/javascript"></SCRIPT>
+      <SCRIPT src="index_files/comment-reply.min.js" type="text/javascript"></SCRIPT>
+      <SCRIPT src="index_files/ajax.min.js" type="text/javascript"></SCRIPT>
+      <SCRIPT src="index_files/js_composer_front.js" type="text/javascript"></SCRIPT>
+      <SCRIPT src="index_files/modernizr.min.js" type="text/javascript"></SCRIPT>
+   </BODY>
+</HTML>
