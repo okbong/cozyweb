@@ -1,0 +1,313 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.topnav {
+    font-size: 14px; 
+	height:60px;
+	background:rgba(0,0,0,0.1);
+	border-bottom: 0px solid rgba(0,0,0,0.2);
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: white;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/installation-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+.slogan {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/slogan-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 90%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.oval-thought-border {
+  position:relative;
+  padding:70px 30px;
+  margin:1em auto 80px;
+  border:10px solid #c81e2b;
+  text-align:center;
+  color:#333;
+ /* background:#fff; */
+  background:rgba(255,255,255,0.5);
+  /* css3 */
+  /* http://nicolasgallagher.com/pure-css-speech-bubbles/demo/
+  NOTES:
+  -webkit-border-radius:240px 140px; // produces oval in safari 4 and chrome 4
+  -webkit-border-radius:240px / 140px; // produces oval in chrome 4 (again!) but not supported in safari 4
+  Not correct application of the current spec, therefore, using longhand to avoid future problems with webkit corrects this
+  */
+  -webkit-border-top-left-radius:240px 140px;
+  -webkit-border-top-right-radius:240px 140px;
+  -webkit-border-bottom-right-radius:240px 140px;
+  -webkit-border-bottom-left-radius:240px 140px;
+  -moz-border-radius:240px / 140px;
+  border-radius:240px / 140px;
+}
+
+/* creates the larger circle */
+.oval-thought-border:before {
+  content:"";
+  position:absolute;
+  z-index:10;
+  bottom:-40px;
+  right:100px;
+  width:50px;
+  height:50px;
+  border:10px solid #c81e2b;
+  background:#fff;
+  /* css3 */
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  border-radius:50px;
+  /* reduce the damage in FF3.0 */
+  display:block;
+}
+
+/* creates the smaller circle */
+.oval-thought-border:after {
+  content:"";
+  position:absolute;
+  z-index:10;
+  bottom:-60px;
+  right:50px;
+  width:25px;
+  height:25px;
+  border:10px solid #c81e2b;
+  background:#fff;
+  /* css3 */
+  -webkit-border-radius:25px;
+  -moz-border-radius:25px;
+  border-radius:25px;
+  /* reduce the damage in FF3.0 */
+  display:block;
+}
+
+
+.howitwork {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background-size: cover;
+	border-radius: 25px;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 100%;
+}
+
+
+
+.installation {
+  width: 500px;
+  margin: 10px
+}
+ 
+.installation  ol {
+  color: #ccc;
+  list-style-type: none;
+}
+ 
+.installation  ol li {
+  position: relative;
+  font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+ 
+.installation  li p {
+  font: 24px Helvetica, sans-serif;
+  padding-left: 60px;
+  color: #fff;
+}
+ 
+.installation span {
+  position: absolute;
+}
+
+
+#slide2 {
+  background-image: url("../img/contact.png");
+  background-attachment: fixed;
+}

@@ -1,0 +1,84 @@
+.elegant-aero {
+	font: 18px/normal Arial, Helvetica, sans-serif; padding: 20px; color: rgb(102, 102, 102); margin-top: 20px; margin-bottom: 20px; margin-right: auto; margin-left: auto; max-width: 500px; font-size-adjust: none; font-stretch: normal; background-color: rgba(210, 233, 255, 0.6);
+}
+.elegant-aero h1 {
+	background: rgb(192, 225, 255); font: 24px/normal "Trebuchet MS", Arial, Helvetica, sans-serif; margin: -20px -20px 15px; padding: 10px 10px 10px 20px; border-bottom-color: rgb(184, 221, 255); border-bottom-width: 1px; border-bottom-style: solid; display: block; font-size-adjust: none; font-stretch: normal;
+}
+.elegant-aero h1 > span {
+	font-size: 11px; display: block;
+}
+.elegant-aero label > span {
+	color: rgb(94, 94, 94); margin-top: 10px; float: left;
+}
+.elegant-aero label {
+	margin: 0px 0px 5px; display: block;
+}
+.elegant-aero label > span {
+	width: 30%; text-align: right; padding-right: 15px; font-weight: bold; margin-top: 10px; float: left;
+}
+.elegant-aero input[type='text'] {
+	background: rgb(251, 251, 251); font: 200 12px/15px Arial, Helvetica, sans-serif; margin: 2px 6px 16px 0px; padding: 0px 0px 0px 5px; outline: 0px; border: 1px solid rgb(197, 226, 255); border-image: none; width: 60%; height: 30px; color: rgb(136, 136, 136); font-size-adjust: none; font-stretch: normal; box-shadow: inset 0px 1px 6px #ecf3f5; -webkit-box-shadow: inset 0px 1px 6px #ECF3F5;
+}
+.elegant-aero input[type='email'] {
+	background: rgb(251, 251, 251); font: 200 12px/15px Arial, Helvetica, sans-serif; margin: 2px 6px 16px 0px; padding: 0px 0px 0px 5px; outline: 0px; border: 1px solid rgb(197, 226, 255); border-image: none; width: 60%; height: 30px; color: rgb(136, 136, 136); font-size-adjust: none; font-stretch: normal; box-shadow: inset 0px 1px 6px #ecf3f5; -webkit-box-shadow: inset 0px 1px 6px #ECF3F5;
+}
+.elegant-aero textarea {
+	background: rgb(251, 251, 251); font: 200 12px/15px Arial, Helvetica, sans-serif; margin: 2px 6px 16px 0px; padding: 0px 0px 0px 5px; outline: 0px; border: 1px solid rgb(197, 226, 255); border-image: none; width: 60%; height: 30px; color: rgb(136, 136, 136); font-size-adjust: none; font-stretch: normal; box-shadow: inset 0px 1px 6px #ecf3f5; -webkit-box-shadow: inset 0px 1px 6px #ECF3F5;
+}
+.elegant-aero select {
+	background: rgb(251, 251, 251); font: 200 12px/15px Arial, Helvetica, sans-serif; margin: 2px 6px 16px 0px; padding: 0px 0px 0px 5px; outline: 0px; border: 1px solid rgb(197, 226, 255); border-image: none; width: 60%; height: 30px; color: rgb(136, 136, 136); font-size-adjust: none; font-stretch: normal; box-shadow: inset 0px 1px 6px #ecf3f5; -webkit-box-shadow: inset 0px 1px 6px #ECF3F5;
+}
+.elegant-aero textarea {
+	padding: 5px 0px 0px 5px; width: 60%; height: 100px;
+}
+.elegant-aero select {
+	background: url("down-arrow.png") no-repeat right rgb(251, 251, 251); width: 60%; text-indent: 0.01px; -webkit-appearance: none; appearance: none; -moz-appearance: none;
+}
+.elegant-aero .button {
+	background: rgb(102, 193, 228); padding: 10px 30px; border: currentColor; border-image: none; color: rgb(255, 255, 255); font-size: 24px; box-shadow: 1px 1px 1px #4c6e91; text-shadow: 1px 1px 1px #5079a3; -webkit-box-shadow: 1px 1px 1px #4C6E91; -moz-box-shadow: 1px 1px 1px #4C6E91;
+}
+.elegant-aero .button:hover {
+	background: rgb(62, 177, 221);
+}
+.basic-grey {
+	background: rgb(247, 247, 247); font: 12px/normal Georgia, "Times New Roman", Times, serif; padding: 25px 15px 25px 10px; border: 1px solid rgb(228, 228, 228); border-image: none; color: rgb(136, 136, 136); margin-right: auto; margin-left: auto; max-width: 500px; font-size-adjust: none; font-stretch: normal; text-shadow: 1px 1px 1px #fff;
+}
+.basic-grey h1 {
+	margin: -10px -15px 30px -10px; padding: 0px 0px 10px 40px; color: rgb(136, 136, 136); font-size: 25px; border-bottom-color: rgb(228, 228, 228); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.basic-grey h1 > span {
+	font-size: 11px; display: block;
+}
+.basic-grey label {
+	margin: 0px; display: block;
+}
+.basic-grey label > span {
+	width: 20%; text-align: right; color: rgb(136, 136, 136); padding-right: 10px; margin-top: 10px; float: left;
+}
+.basic-grey input[type='text'] {
+	padding: 3px 3px 3px 5px; outline: 0px; border: 1px solid rgb(218, 218, 218); border-image: none; width: 70%; height: 30px; color: rgb(136, 136, 136); line-height: 15px; font-size: 12px; margin-top: 2px; margin-right: 6px; margin-bottom: 16px; box-shadow: inset 0px 1px 4px #ececec; -webkit-box-shadow: inset 0px 1px 4px #ECECEC; -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+.basic-grey input[type='email'] {
+	padding: 3px 3px 3px 5px; outline: 0px; border: 1px solid rgb(218, 218, 218); border-image: none; width: 70%; height: 30px; color: rgb(136, 136, 136); line-height: 15px; font-size: 12px; margin-top: 2px; margin-right: 6px; margin-bottom: 16px; box-shadow: inset 0px 1px 4px #ececec; -webkit-box-shadow: inset 0px 1px 4px #ECECEC; -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+.basic-grey textarea {
+	padding: 3px 3px 3px 5px; outline: 0px; border: 1px solid rgb(218, 218, 218); border-image: none; width: 70%; height: 30px; color: rgb(136, 136, 136); line-height: 15px; font-size: 12px; margin-top: 2px; margin-right: 6px; margin-bottom: 16px; box-shadow: inset 0px 1px 4px #ececec; -webkit-box-shadow: inset 0px 1px 4px #ECECEC; -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+.basic-grey select {
+	padding: 3px 3px 3px 5px; outline: 0px; border: 1px solid rgb(218, 218, 218); border-image: none; width: 70%; height: 30px; color: rgb(136, 136, 136); line-height: 15px; font-size: 12px; margin-top: 2px; margin-right: 6px; margin-bottom: 16px; box-shadow: inset 0px 1px 4px #ececec; -webkit-box-shadow: inset 0px 1px 4px #ECECEC; -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+.basic-grey textarea {
+	padding: 5px 3px 3px 5px;
+}
+.basic-grey select {
+	background: url("down-arrow.png") no-repeat right rgb(255, 255, 255); width: 70%; height: 35px; line-height: 25px; text-indent: 0.01px; -webkit-appearance: none; appearance: none; -moz-appearance: none;
+}
+.basic-grey textarea {
+	height: 100px;
+}
+.basic-grey .button {
+	background: rgb(226, 117, 117); padding: 10px 25px; border-radius: 3px; border: currentColor; border-image: none; color: rgb(255, 255, 255); cursor: pointer; box-shadow: 1px 1px 5px #b6b6b6; text-shadow: 1px 1px 1px #9e3f3f;
+}
+.basic-grey .button:hover {
+	background: rgb(207, 122, 122);
+}
