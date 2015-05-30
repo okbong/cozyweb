@@ -282,19 +282,19 @@
                   <div class="col-lg-6">
                      <H3 style="    border-radius: 25px; padding: 15px; background-color: rgba(255, 255, 255, 1);margin-bottom:0px;">
                      <STRONG><a target="_blank" href="https://docs.google.com/forms/d/1eIG2qSrWr5lSTRbUJ_zdoHfV-srpmejW7XBbTolXOW0/viewform"><i class="fa fa-hand-o-right"></i> Click here to request order <i class="fa fa-shopping-cart"></i></a></STRONG></H1>
-                     <FORM class="elegant-aero" action="" method="post">
+                     <FORM class="elegant-aero" action="http://restmeshsvr0001.cloudapp.net:2525/email" method="post">
                         <H1>Contact Us<SPAN></SPAN></H1>
                         <P>
                            <LABEL><SPAN>Name 
-                           </SPAN><INPUT name="name" id="name" type="text" placeholder="" value=""></LABEL><LABEL><SPAN> 
-                           Email </SPAN><INPUT name="email" id="email" type="email" placeholder="" value=""></LABEL>
+                           </SPAN><INPUT name="name" id="name" type="text" placeholder="" value="" required="true"></LABEL><LABEL><SPAN> 
+                           Email </SPAN><INPUT name="email" id="email" type="email" placeholder="" value="" required="true"></LABEL>
                            <LABEL>
                            <SPAN>Subject 
                            </SPAN> 
-                           <INPUT name="name" id="name" type="text" placeholder="" value="">
+                           <INPUT name="subject" id="subject" type="text" placeholder="" value="" required="true">
                            </LABEL><LABEL><SPAN>Message
-                           </SPAN><TEXTAREA name="message" id="message" placeholder=""> </TEXTAREA></LABEL>
-                           <LABEL><SPAN>&nbsp;</SPAN> <BR><INPUT class="button" type="button" value="Submit"> 
+                           </SPAN><TEXTAREA name="message" id="message" placeholder="" required="true"> </TEXTAREA></LABEL>
+                           <LABEL><SPAN>&nbsp;</SPAN> <BR><INPUT class="button" type="submit" value="Submit"> 
                            </LABEL>
                         </P>
                      </FORM>
