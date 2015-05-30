@@ -31,6 +31,16 @@
          $('.carousel').carousel({
              interval: 5000 //changes the speed
          })
+		 $(document).ready(function(){
+			   var $form = $('#email-form');
+			   $form.submit(function(){
+				  $.post($(this).attr('action'), $(this).serialize(), function(response){
+						// do something here on success
+						alert("An email is sent to CozyFuture! Thank you!");
+				  },'json').always(function(){alert("An email is sent to CozyFuture! Thank you!");});
+				  return false;
+			   });
+			});
       </script>		
    </head>
    <body>
@@ -281,8 +291,10 @@
                   </div>
                   <div class="col-lg-6">
                      <H3 style="    border-radius: 25px; padding: 15px; background-color: rgba(255, 255, 255, 1);margin-bottom:0px;">
+					 <iframe name="hiddenFrame" style="position:absolute; top:-1px; left:-1px; width:1px; height:1px;"></iframe>
+
                      <STRONG><a target="_blank" href="https://docs.google.com/forms/d/1eIG2qSrWr5lSTRbUJ_zdoHfV-srpmejW7XBbTolXOW0/viewform"><i class="fa fa-hand-o-right"></i> Click here to request order <i class="fa fa-shopping-cart"></i></a></STRONG></H1>
-                     <FORM class="elegant-aero" action="http://restmeshsvr0001.cloudapp.net:2525/email" method="post">
+                     <FORM id="email-form" class="elegant-aero" action="http://restmeshsvr0001.cloudapp.net:2525/email" method="post" target="hiddenFrame">
                         <H1>Contact Us<SPAN></SPAN></H1>
                         <P>
                            <LABEL><SPAN>Name 
